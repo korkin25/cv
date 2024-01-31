@@ -1,31 +1,31 @@
 name: Convert Markdown to PDF
 
-on: [push]
-branches:
-  only:
-    - main
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   convert:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Install apt-get dependencies
-      run: |
-        sudo apt-get install pandoc weasyprint
+      - name: Install apt-get dependencies
+        run: |
+          sudo apt-get install pandoc weasyprint
 
-    - name: Convert Markdown to PDF
-      run: |
-        for file in *.md; do
-          pandoc --pdf-engine=weasyprint -s $file -o ${file%.*}.pdf
-        done
+      - name: Convert Markdown to PDF
+        run: |
+          for file in *.md; do
+            pandoc --pdf-engine=weasyprint -s $file -o ${file%.*}.pdf
+          done
 
-    - name: Commit PDF
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/korkin25/cv.git
-        git push
+      - name: Commit PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/korkin25/cv.git
+          git push
