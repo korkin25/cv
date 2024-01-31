@@ -12,12 +12,12 @@ jobs:
 
     - name: Install apt-get dependencies
       run: |
-        sudo apt-get install pandoc texlive-latex-base
+        sudo apt-get install pandoc weasyprint
 
     - name: Convert Markdown to PDF
       run: |
         for file in *.md; do
-          pandoc -s $file -o ${file%.*}.pdf
+          pandoc --pdf-engine=weasyprint -s $file -o ${file%.*}.pdf
         done
 
     - name: Commit PDF
