@@ -1,6 +1,9 @@
 name: Convert Markdown to PDF
 
 on: [push]
+branches:
+  only:
+    - main
 
 jobs:
   convert:
