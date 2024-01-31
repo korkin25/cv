@@ -1,4 +1,5 @@
 # Eugenii Kuzakov
+   https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf
 
 ## Position of Interest
    Senior/Team Lead Devops Engineer
@@ -71,12 +72,9 @@
 Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ## Contacts
-***e-mail:*** [eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)
-
+***e-mail:[eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)***
 ***[Telegram @korkin25](https://t.me/korkin25)***
-
 ***[Whatsapp +7-915-495-8170](https://wa.me/79154958170)***
-
 ***[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)***
 
 ## Employment
