@@ -8,12 +8,12 @@ DevOps: harsh, merciless, kind and humble
 
 ## Position of Interest
 
-> Senior DevOps Engineer Team Lead
+Senior DevOps Engineer Team Lead
 
 ## Professional Experience
 
 - DevOps Engineer: 4+ Years
-- Systems Architect / Pre-sales Consultant / Business Development Manager: 10 Years
+- Systems Architect / Pre-sales Consultant / Business Development Manager: 10 Year
 - Lead Engineer (Software & Hardware): Over 15 Years
 
 ## Professional Strengths
@@ -119,17 +119,17 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
    - Utilized OpenSearch on 5 hardware servers, complemented by 2 Logstash and 2 Haproxy VMs. 
  
  - OpenSearch Implementation:
-    > - Implemented rebalancing rules, aligning every Kubernetes namespace with a corresponding index.
+    - Implemented rebalancing rules, aligning every Kubernetes namespace with a corresponding index.
 
 - OpenSearch Community Repository (Ansible Playbook) Modifications ([OpenSearch Ansible Playbook](https://github.com/korkin25/opensearch-ansible-playbook)): 
  
-    > - Introduced a Vagrantfile for in-depth stack testing.
-    > - Reduced the need for root-level operations.
-    > - Added "host_download" feature to facilitate artifact download on the Ansible controller, aiding in remote operations in closed segments or slow internet contexts.
-    > - Configured optional support for Uncomplicated Firewall (UFW).
-    > - Enabled optional integration with Logstash.
-    > - Enhanced the playbook with various usability features.
-    > - Provided Fluent Bit configuration examples for better implementation. 
+    - Introduced a Vagrantfile for in-depth stack testing.
+    - Reduced the need for root-level operations.
+    - Added "host_download" feature to facilitate artifact download on the Ansible controller, aiding in remote operations in closed segments or slow internet contexts.
+    - Configured optional support for Uncomplicated Firewall (UFW).
+    - Enabled optional integration with Logstash.
+    - Enhanced the playbook with various usability features.
+    - Provided Fluent Bit configuration examples for better implementation. 
 
  ----
  ### Senior DevOps at "Satel Pro", [[https://satel.org]](https://satel.org) - software development company for government projects. (Oct 2019 Aug 2022)
@@ -137,41 +137,41 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
  
  #### Leadership Role 
  
- > - Led the DevOps team in planning tasks, resources, and timelines
- > - Mentored team members, aiding in their rapid skill enhancement and helping them become proficient DevOps engineers, who are content in their new roles
- > - Worked closely with over five development teams 
- > - Managed 2 Kubernetes dev/test clusters with loops for the entire development stack
- > - Maintained 5 production Kubernetes clusters for clients 
+ - Led the DevOps team in planning tasks, resources, and timelines
+ - Mentored team members, aiding in their rapid skill enhancement and helping them become proficient DevOps engineers, who are content in their new roles
+ - Worked closely with over five development teams 
+ - Managed 2 Kubernetes dev/test clusters with loops for the entire development stack
+ - Maintained 5 production Kubernetes clusters for clients 
  
  #### Comprehensive Rollout Rework 
  
- > - Undertook a complete overhaul of the rollout using GitLab CI + Helm for the entire product stack
- > - Developed and implemented a corporate methodology for a fully automated pipeline (using GitLab CI/CD) for project implementation and maintenance, which included: 
+ - Undertook a complete overhaul of the rollout using GitLab CI + Helm for the entire product stack
+ - Developed and implemented a corporate methodology for a fully automated pipeline (using GitLab CI/CD) for project implementation and maintenance, which included: 
  
  - ##### Infrastructure as Code
-   > - Preparation of OS images (using HashiCorp Packer)
-   > - Creation/modification of virtual machines (using HashiCorp Terraform, Cloud-init)
-   > - Kubernetes installation (using Kubespray, Kubeadm, etc.)
-   > - Deployment of Kubernetes infrastructure services (usingHelmfile/static manifests)
-   > - Management of infrastructure services (such as Minio, Postgres/Stolon, Docker registry/cache, GitLab runners, DNS/Bind9, ELK, Prometheus, etc.)
-   > - Setup of logging and monitoring for the entire installed stack 
+   - Preparation of OS images (using HashiCorp Packer)
+   - Creation/modification of virtual machines (using HashiCorp Terraform, Cloud-init)
+   - Kubernetes installation (using Kubespray, Kubeadm, etc.)
+   - Deployment of Kubernetes infrastructure services (usingHelmfile/static manifests)
+   - Management of infrastructure services (such as Minio, Postgres/Stolon, Docker registry/cache, GitLab runners, DNS/Bind9, ELK, Prometheus, etc.)
+   - Setup of logging and monitoring for the entire installed stack 
  
  - ##### GitOps
-   >- Automated rollout of microservices according to the release plan:
-      >     - Development: automatic deployment from the "develop" branch
-      >     - Release Candidate: automatic deployment from the "master" branch
-      >     - Production: a consistent set of tested versions of microservices 
+   - Automated rollout of microservices according to the release plan:
+          - Development: automatic deployment from the "develop" branch
+          - Release Candidate: automatic deployment from the "master" branch
+          - Production: a consistent set of tested versions of microservices 
 
 - ##### Configuration Management  
-   > - Used HashiCorp Vault for pipeline-sensitive data and Kubernetes configmaps/secrets 
+   - Used HashiCorp Vault for pipeline-sensitive data and Kubernetes configmaps/secrets 
  
 - ##### Continuous pipeline/deploy optimization 
  
-    > - Docker Builds: multistage, BuildKit(distributed layer caching, parallel stages building, and lazy loading), Alpine.
-    > - Language specific tuning/caching: repo caching for Java/Go/apt/npm/maven, container runtime optimization
-    > - Java container runtime specific tuning: -XX:+UseCGroupMemoryLimitForHeap, -XX:MaxRAMFraction, preStop.
-    > - CI/CD: Artifact caching(Sonatype Nexus), universal templates
-    > - Kubernetes: capabilities, RO FS, res limits/requests, probes, scaling, PDB 
+    - Docker Builds: multistage, BuildKit(distributed layer caching, parallel stages building, and lazy loading), Alpine.
+    - Language specific tuning/caching: repo caching for Java/Go/apt/npm/maven, container runtime optimization
+    - Java container runtime specific tuning: -XX:+UseCGroupMemoryLimitForHeap, -XX:MaxRAMFraction, preStop.
+    - CI/CD: Artifact caching(Sonatype Nexus), universal templates
+    - Kubernetes: capabilities, RO FS, res limits/requests, probes, scaling, PDB 
 
 ----
 ### *Systems architect at* «IBS Expertise» - the biggest systems integrator in Russia ([[https://www.ibs.ru]](https://www.ibs.ru/)) (Oct 2016 - Aug 2019)
@@ -179,62 +179,58 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 #### Systems Architect 
  
- > I perform analysis and structuring of the customer"s needs, 
- > develop the technical architecture for complex projects, write 
- > technical specifications, ensure solution protection, and handle 
- > other related tasks. 
+ I perform analysis and structuring of the customer"s needs, 
+ develop the technical architecture for complex projects, write 
+ technical specifications, ensure solution protection, and handle 
+ other related tasks. 
  
  #### Chief Project Engineer 
  
- > I lead large-scale projects from intricate pre-sales stages through 
- > to design and implementation. I am also responsible for the 
- > technical oversight of project execution. 
+ I lead large-scale projects from intricate pre-sales stages through 
+ to design and implementation. I am also responsible for the 
+ technical oversight of project execution. 
 
 ----
 ### *Systems architect at* Technoserv - one of biggest, well known in Russia systems integrator company (*Jun 2014 - Aug 2016*) 
 ----
 
 - #### Systems Architect 
-> specialize in analyzing and structuring customer needs, developing the technical architecture for complex projects, drafting technical and commercial proposals, and creating technical documentation among other tasks. 
+specialize in analyzing and structuring customer needs, developing the technical architecture for complex projects, drafting technical and commercial proposals, and creating technical documentation among other tasks. 
 
 - #### Chief Project Engineer
-   > I handle the management of large-scale projects, guiding them from complex pre-sales stages through to design and implementation. 
+   I handle the management of large-scale projects, guiding them from complex pre-sales stages through to design and implementation. 
 
 - #### the biggest project
-   > I serve as the main Architect for 112-Systems and am the primary IT Infrastructure Architect for the "Secure City" global project. 
+   I serve as the main Architect for 112-Systems and am the primary IT Infrastructure Architect for the "Secure City" global project. 
 
 ----
 ### Systems architect/presale-manager at Open Technologies Ltd. - one of the most well known in Russia systems integrator company (Aug 2012 - Mar 2014)
 ----
 
 #### Business Development Manager (BDM) 
-
- >I have brought new vendors and solutions into the AMT product portfolio for the Russian/CIS market, and have conducted seminars for sales managers. 
+I have brought new vendors and solutions into the AMT product portfolio for the Russian/CIS market, and have conducted seminars for sales managers. 
  
 #### Pre-sales Manager 
- > I have engaged in aggressive pre-sales activities, including customer meetings and presentations. I have a deep understanding of the advantages and disadvantages of various vendors, products,  technologies, and methods. I"m able to persuade my customers to choose the most suitable solutions based on various parameters. I continuously search for new vendors and products to introduce to our customers. 
+I have engaged in aggressive pre-sales activities, including customer meetings and presentations. I have a deep understanding of the advantages and disadvantages of various vendors, products,  technologies, and methods. I"m able to persuade my customers to choose the most suitable solutions based on various parameters. I continuously search for new vendors and products to introduce to our customers. 
  
 #### Chief Technical Project Manager 
- 
- I manage large projects during complex pre-sales stages. This involves close collaboration with vendors, partners, customers, and others. 
+I manage large projects during complex pre-sales stages. This involves close collaboration with vendors, partners, customers, and others. 
 
 ----
 ### Head of data processing centers direction at "AMT Group" - one of well known in Russia systems integrator company (Jul 2008-Jul 2012) 
 ----
-
 - #### From a technical standpoint
->I serve as a team leader in high-end solution provision. 
-
->In my role as a Business Development Manager (BDM): I introduce new vendors and solutions to the Russian/CIS market for integration into the AMT product portfolio and customer base. I also conduct seminars for sales managers. 
+I serve as a team leader in high-end solution provision. 
+In my role as a Business Development Manager (BDM): I introduce new vendors and solutions to the Russian/CIS market for integration into the AMT product portfolio and customer base. I also conduct seminars for sales managers. 
  
 - #### Product Manager 
- >I coordinate operations with vendors such as EMC, IBM, Symantec, Azul, Varonis, and the AMT sales team. I"ve helped establish AMT Group partnerships with IBM, Symantec/Veritas, WorldITSystems Azul/Pillar, among others, and EMC. Some of these relationships were revived or entirely new for the AMT Group, involving numerous certifications and extensive work with the AMT Group"s top management to drive more business into the company. 
+ I coordinate operations with vendors such as EMC, IBM, Symantec, Azul, Varonis, and the AMT sales team. I"ve helped establish AMT Group partnerships with IBM, Symantec/Veritas, WorldITSystems Azul/Pillar, among others, and EMC. Some of these relationships were revived or entirely new for the AMT Group, involving numerous certifications and extensive work with the AMT Group"s top management to drive more business into the company. 
  
 - #### Pre-sales Manager 
- >I engage in high levels of pre-sales activities to introduce products, technologies, and projects to customers. Over the past year, I"ve honed my skills in this area, managing customer meetings, technical offer documents, demonstrations, and tender documentation effectively. 
+ I engage in high levels of pre-sales activities to introduce products, technologies, and projects to customers. Over the past year, I"ve honed my skills in this area, managing customer meetings, technical offer documents, demonstrations, and tender documentation effectively. 
  
 - #### Engineer 
- >I am responsible for setting up the hardware/software of vendors like EMC, Veritas, Sun, and Azul. 
+ I am responsible for setting up the hardware/software of vendors like EMC, Veritas, Sun, and Azul. 
 
 ----
 
@@ -243,33 +239,33 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 ----
 
 In my role as a Team Leader and Architect in high availability and storage systems:
-> - I work with a group of engineers, coordinating their work, offering assistance, and supervising them
-> - I serve as a technical project coordinator and architect
-> - I take on the responsibilities of an education manager, analyzing engineers experience, and planning their education
-> - I act as a 24/7 support team engineer for Sun/EMC systems 
+- I work with a group of engineers, coordinating their work, offering assistance, and supervising them
+- I serve as a technical project coordinator and architect
+- I take on the responsibilities of an education manager, analyzing engineers experience, and planning their education
+- I act as a 24/7 support team engineer for Sun/EMC systems 
 
 Major projects I"ve completed involve numerous large data centers, incorporating cluster systems, EMC and Hitachi storage systems and software, Sun and HP servers, storage management software, and Oracle databases. The largest of these projects includes: 
 
-> - Four 1-8 nodes Veritas Clusters (RAC and HA) connected by a Global Cluster option 
-> - Two DMX-3 systems replicated via SRDF 
-> - The design of an agent that provides coordination between failover/parallel groups in different clusters
+- Four 1-8 nodes Veritas Clusters (RAC and HA) connected by a Global Cluster option 
+- Two DMX-3 systems replicated via SRDF 
+- The design of an agent that provides coordination between failover/parallel groups in different clusters
 
 In this project, I fulfilled several roles: 
 
-> - Technical project coordination between EMC, OT managers & engineers, and the customer
-> - Design and implementation of clusters service high availability- Design and configuration of SAN (Cisco MDS with VSAN, ISL, IVR technologies)
-> - Planning of EMC DMX-3 storage allocation, building .bin files with dynamic & static SRDF-capability 
-> - Implementation of new agents to run & control applications in Veritas Clusters 
-> - Fixing of vendor bugs found in the Veritas SRDF cluster agent 
-> - Implementation of new actions for different types of cluster resources (e.g., Oracle, OEBS) 
-> - Design and implementation of hot backup for an Oracle database (running on primary site) to a secondary site using EMC TimeFinder SRDF & Snap technologies. This included the creation of numerous well-documented scripts. 
+- Technical project coordination between EMC, OT managers & engineers, and the customer
+- Design and implementation of clusters service high availability- Design and configuration of SAN (Cisco MDS with VSAN, ISL, IVR technologies)
+- Planning of EMC DMX-3 storage allocation, building .bin files with dynamic & static SRDF-capability 
+- Implementation of new agents to run & control applications in Veritas Clusters 
+- Fixing of vendor bugs found in the Veritas SRDF cluster agent 
+- Implementation of new actions for different types of cluster resources (e.g., Oracle, OEBS) 
+- Design and implementation of hot backup for an Oracle database (running on primary site) to a secondary site using EMC TimeFinder SRDF & Snap technologies. This included the creation of numerous well-documented scripts. 
 
 I have experience working with a broad range of servers/storage equipment and management: 
 
-> - EMC Clariion CX series, EMC Symmterix/DMX systems (including SRDF), SAN (McData, Brocade, Cisco MDS), EMC Solution Enabler, EMC Powerpath, EMC Control Center, Veritas Netbackup 
-> - Sun Microsystems equipment and software including Sun Enterprise and SunFire servers, Sun StorEdge, Solaris 
-> - High availability clusters such as Veritas Cluster Server, Veritas Storage Foundation and Storage Foundation for Oracle RAC, Global Cluster Option, and Sun Cluster Server 
-> - Replication software/hardware like EMC MirrorView Sync/Async, EMC SRDF Sync/Async, Veritas Volume Replicator 
+- EMC Clariion CX series, EMC Symmterix/DMX systems (including SRDF), SAN (McData, Brocade, Cisco MDS), EMC Solution Enabler, EMC Powerpath, EMC Control Center, Veritas Netbackup 
+- Sun Microsystems equipment and software including Sun Enterprise and SunFire servers, Sun StorEdge, Solaris 
+- High availability clusters such as Veritas Cluster Server, Veritas Storage Foundation and Storage Foundation for Oracle RAC, Global Cluster Option, and Sun Cluster Server 
+- Replication software/hardware like EMC MirrorView Sync/Async, EMC SRDF Sync/Async, Veritas Volume Replicator 
 
 ---
 
@@ -277,8 +273,8 @@ I have experience working with a broad range of servers/storage equipment and ma
 
 ---
 
-> - Reconstructed web-hosting service 
-> - Automated customer management (virtual sites and mail users) 
+- Reconstructed web-hosting service 
+- Automated customer management (virtual sites and mail users) 
 
 References:
 - General director Mikhail Ushakov <misha@ushakov.ru>
@@ -288,50 +284,50 @@ References:
 
 ---
 
-> - Upgraded SCO Open Server 5.0 and Windows servers to Solaris & FreeBSD systems
-> - Implemented Samba/CIFS solutions in a Wide Area Network (WAN)
-> - Optimized branch communications by building FreeBSD-based VPNs
-> - Entirely rebuilt the company"s internet connection and implemented a corporate email/internet access service
-> - Replaced direct serial x.25 channels for ATMs with FreeBSD IPsec channels
-> - Ensured 24/7 stable operation of corporate servers and local area network machines 
+- Upgraded SCO Open Server 5.0 and Windows servers to Solaris & FreeBSD systems
+- Implemented Samba/CIFS solutions in a Wide Area Network (WAN)
+- Optimized branch communications by building FreeBSD-based VPNs
+- Entirely rebuilt the company"s internet connection and implemented a corporate email/internet access service
+- Replaced direct serial x.25 channels for ATMs with FreeBSD IPsec channels
+- Ensured 24/7 stable operation of corporate servers and local area network machines 
 
 ---
 ### Systems/network administrator  at "Laboratory 321 Ltd" is one of biggest solution provider in Omsk city (http://www.lab321.ru) (July 1994 - Dec 1999)
 ---
 
-> - Installation and configuration of Solaris (Sparc/x86), FreeBSD, SCO OSE, and Windows NT servers and workstations
-> - Building, administration, and support of corporate heterogeneous distributed networks using TCP/IP, NetBIOS over IP, and IPX protocols
-> - Technical support for corporate servers, including user management, security control, firewall management, routing, email services, dedicated and dial-up lines, usage accounting,  daily backup, among others on FreeBSD, Solaris (Sparc/x86), SCO OSE 5, and Linux
-> - Technical support for the corporate web server ([[http://www.lab321.ru]](http://www.lab321.ru/)) utilizing Apache, Servlets, JSP, SSI, and virtual hosting
-> - Technical support for LAN users and client machines running Windows NT/95/98
-> - Transformation of XML documents into HTML using XSL
-> - Ensured 24/7 stable operation of corporate servers and local area network machines
-> - Documentation of tasks, server/network configurations in SGML
-> - Provided support services for customers with installed Unix servers 
-> - Offered consulting services in network/internet technologies to customers 
-> - Installation and configuration of complex hardware/software configurations for customers 
+- Installation and configuration of Solaris (Sparc/x86), FreeBSD, SCO OSE, and Windows NT servers and workstations
+- Building, administration, and support of corporate heterogeneous distributed networks using TCP/IP, NetBIOS over IP, and IPX protocols
+- Technical support for corporate servers, including user management, security control, firewall management, routing, email services, dedicated and dial-up lines, usage accounting,  daily backup, among others on FreeBSD, Solaris (Sparc/x86), SCO OSE 5, and Linux
+- Technical support for the corporate web server ([[http://www.lab321.ru]](http://www.lab321.ru/)) utilizing Apache, Servlets, JSP, SSI, and virtual hosting
+- Technical support for LAN users and client machines running Windows NT/95/98
+- Transformation of XML documents into HTML using XSL
+- Ensured 24/7 stable operation of corporate servers and local area network machines
+- Documentation of tasks, server/network configurations in SGML
+- Provided support services for customers with installed Unix servers 
+- Offered consulting services in network/internet technologies to customers 
+- Installation and configuration of complex hardware/software configurations for customers 
 
 References: 
 
-> - Company"s director Serge Bush  [[bush@lab321.ru]](mailto:bush@lab321.ru) 
-> - Paul Romanchenko [[paul@justnews.ru]](mailto:paul@justnews.ru) 
+- Company"s director Serge Bush  [[bush@lab321.ru]](mailto:bush@lab321.ru) 
+- Paul Romanchenko [[paul@justnews.ru]](mailto:paul@justnews.ru) 
 
 
 ## Outdated
 
 ### Cryptocurrency Experience
 
-> - Active miner, constantly seeking profitable coins and swiftly implementing algorithms for public/private mining
-> - Managed a public mining pool, as evidenced here: [[Miner Tokyo]](https://web.archive.org/web/20210525033158/https://miner.tokyo/)
-> - Maintained the official mining pool for the Sinovate coin, found at [[Sinovate.io]](https://sinovate.io/)
-> - Developed the x25x algorithm implementation for YIIMP, demonstrating my coding proficiency
-> - Designed a Python-based project aimed at automatically switching mining rigs to the most profitable coins, utilizing difficulty-based profit calculation, exchange rates, and the HiveOS API.
+- Active miner, constantly seeking profitable coins and swiftly implementing algorithms for public/private mining
+- Managed a public mining pool, as evidenced here: [[Miner Tokyo]](https://web.archive.org/web/20210525033158/https://miner.tokyo/)
+- Maintained the official mining pool for the Sinovate coin, found at [[Sinovate.io]](https://sinovate.io/)
+- Developed the x25x algorithm implementation for YIIMP, demonstrating my coding proficiency
+- Designed a Python-based project aimed at automatically switching mining rigs to the most profitable coins, utilizing difficulty-based profit calculation, exchange rates, and the HiveOS API.
 
 ### Publications
 
-> - «How to optimize a DataCenter? Expert advices» [[http://www.cnews.ru/reviews/index.shtml?2009/07/31/356058_6]](http://www.cnews.ru/reviews/index.shtml?2009/07/31/356058_6)
+- «How to optimize a DataCenter? Expert advices» [[http://www.cnews.ru/reviews/index.shtml?2009/07/31/356058_6]](http://www.cnews.ru/reviews/index.shtml?2009/07/31/356058_6)
 
-> - «Actual aspects of the operation of data storage systems» [[http://www.connect.ru/article.asp?id=8869]](http://www.connect.ru/article.asp?id=8869) ( [[http://www.amt.ru/content/rus/art_text_pict/219/74.pdf]](http://www.amt.ru/content/rus/art_text_pict/219/74.pdf))
+- «Actual aspects of the operation of data storage systems» [[http://www.connect.ru/article.asp?id=8869]](http://www.connect.ru/article.asp?id=8869) ( [[http://www.amt.ru/content/rus/art_text_pict/219/74.pdf]](http://www.amt.ru/content/rus/art_text_pict/219/74.pdf))
 
 ### Trainings and certifications
 
