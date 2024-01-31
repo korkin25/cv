@@ -2,9 +2,13 @@
 
 DevOps: harsh, merciless, kind and humble
 
-***e-mail:*** [eugeny.kuzakov@gmail.com] ***whatsapp***: +7-915-495-8170 ***telegram***: @korkin25
+***e-mail:*** [eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)
 
-[[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)]
+***[Telegram @korkin25](t.me/korkin25)***
+
+***[Whatsapp +7-915-495-8170](https://wa.me/79154958170)***
+
+***[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)***
 
 ## Position of Interest
 Senior DevOps Engineer Team Lead
