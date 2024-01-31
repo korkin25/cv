@@ -2,7 +2,7 @@
 
 DevOps: harsh, merciless, kind and humble
 
-***e-mail:*** [eugeny.kuzakov@gmail.com] whatsapp: ***+7-915-495-8170*** telegram: ***@korkin25***
+***e-mail:*** [eugeny.kuzakov@gmail.com] ***whatsapp***: +7-915-495-8170 ***telegram***: @korkin25
 
 [[http://www.linkedin.com/in/eugenykuzako](http://www.linkedin.com/in/eugenykuzakov)]
 
