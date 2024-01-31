@@ -4,10 +4,9 @@ DevOps: harsh, merciless, kind and humble
 
 ***e-mail:*** [eugeny.kuzakov@gmail.com] ***whatsapp***: +7-915-495-8170 ***telegram***: @korkin25
 
-[[http://www.linkedin.com/in/eugenykuzako](http://www.linkedin.com/in/eugenykuzakov)]
+[[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)]
 
 ## Position of Interest
-
 Senior DevOps Engineer Team Lead
 
 ## Professional Experience
@@ -104,7 +103,7 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
  - Managed user authorized_keys for secure access control. 
 
  ----
- ### Head of DevOps at [[Latoken (https://latoken.com]](https://latoken.com) - crypto-currency exchange platform (Sept 2022 - Oct 2022)
+ ### *Head of DevOps at* Latoken - crypto-currency exchange (Sep 2022 - Oct 2022)
  ----
  #### Senior Responsibilities 
  
@@ -132,7 +131,7 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
     - Provided Fluent Bit configuration examples for better implementation. 
 
  ----
- ### Senior DevOps at "Satel Pro", [[https://satel.org]](https://satel.org) - software development company for government projects. (Oct 2019 Aug 2022)
+ ### Senior DevOps at "Satel Pro" (https://satel.org) - software development company for government projects. (Oct 2019 Aug 2022)
  ----
  
  #### Leadership Role 
@@ -174,7 +173,7 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
     - Kubernetes: capabilities, RO FS, res limits/requests, probes, scaling, PDB 
 
 ----
-### *Systems architect at* «IBS Expertise» - the biggest systems integrator in Russia ([[https://www.ibs.ru]](https://www.ibs.ru/)) (Oct 2016 - Aug 2019)
+### *Systems architect at* «IBS Expertise» - the biggest systems integrator in Russia (https://www.ibs.ru/)) (Oct 2016 - Aug 2019)
 ----
 
 #### Systems Architect 
@@ -233,9 +232,7 @@ In my role as a Business Development Manager (BDM): I introduce new vendors and 
  I am responsible for setting up the hardware/software of vendors like EMC, Veritas, Sun, and Azul. 
 
 ----
-
 ### Senior systems engineer at "Open Technologies Ltd" - one of biggest, well known in Russia systems integrator company (Feb 2001 - Jun 2008) 
-
 ----
 
 In my role as a Team Leader and Architect in high availability and storage systems:
