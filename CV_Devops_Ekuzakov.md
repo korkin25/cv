@@ -108,15 +108,15 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
  ----
  #### Senior Responsibilities 
  
- > - DevOps Infrastructure Audits: conducted comprehensive audits of the DevOps infrastructure to assess and improve systems.
- > - Developed and strategized the company's roadmap for DevOps  and infrastructure initiatives.
- > - Team Collaboration: close work with DevOps-team members and developers to ensure cohesive project execution.
+- DevOps Infrastructure Audits: conducted comprehensive audits of the DevOps infrastructure to assess and improve systems.
+- Developed and strategized the company's roadmap for DevOps  and infrastructure initiatives.
+- Team Collaboration: close work with DevOps-team members and developers to ensure cohesive project execution.
  
  #### DevOps Tasks 
  
  - High-Load Logging Cluster Deployment:
-    > - Deployed a high-load logging cluster for production Kubernetes clusters, processing approximately 300k messages per second.
-    > - Utilized OpenSearch on 5 hardware servers, complemented by 2 Logstash and 2 Haproxy VMs. 
+   - Deployed a high-load logging cluster for production Kubernetes clusters, processing approximately 300k messages per second.
+   - Utilized OpenSearch on 5 hardware servers, complemented by 2 Logstash and 2 Haproxy VMs. 
  
  - OpenSearch Implementation:
     > - Implemented rebalancing rules, aligning every Kubernetes namespace with a corresponding index.
