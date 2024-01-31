@@ -30,7 +30,7 @@
 ## DevOps Experience
 
 - Senior DevOps Engineer with team ***leadership experience***
-- ***Python developmer***
+- ***Python developer***
 - ***Kubernetes from scratch***: bare-metal (kubeadm, kubespray, k0s) clouds (terraform), with focus on security, networking, logging, and monitoring
 - ***Highload*** experience: National scale project - Unified call center of the Russian Pension Fund
 
