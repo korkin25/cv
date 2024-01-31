@@ -29,10 +29,10 @@
 
 ## DevOps Experience
 
-- Senior DevOps Engineer with team leadership experience
-- Python developmer
-- Kubernetes from scratch: bare-metal (kubeadm, kubespray, k0s) clouds (terraform), with focus on security, networking, logging, and monitoring
-- Highload experience: National scale project - Unified call center of the Russian Pension Fund
+- Senior DevOps Engineer with team ***leadership experience***
+- ***Python developmer***
+- ***Kubernetes from scratch***: bare-metal (kubeadm, kubespray, k0s) clouds (terraform), with focus on security, networking, logging, and monitoring
+- ***Highload*** experience: National scale project - Unified call center of the Russian Pension Fund
 
 ## Software stack
 - **Scripting languages**: bash, python, sed, awk, egrep + etc
@@ -63,19 +63,17 @@
 - ***Kubernetes resource calculator*** [[https://github.com/korkin25/kube-resource-calc]](https://github.com/korkin25/kube-resource-calc)
 
 ## Potential Work Arrangements (@remote)
-- Full-time(preferred)
-- Part-time
-- Consulting
+Full-time(preferred), Part-time, Consulting
 
 ## Education
 
 Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ## Contacts
-***e-mail:[eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)***
-***[Telegram @korkin25](https://t.me/korkin25)***
-***[Whatsapp +7-915-495-8170](https://wa.me/79154958170)***
-***[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)***
+- ***e-mail:[eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)***
+- ***[Telegram @korkin25](https://t.me/korkin25)***
+- ***[Whatsapp +7-915-495-8170](https://wa.me/79154958170)***
+- ***[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)***
 
 ## Employment
 
