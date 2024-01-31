@@ -1,23 +1,13 @@
-# Eugenii Kuzakov (26.12.1973)
-
-DevOps: harsh, merciless, kind and humble
-
-***e-mail:*** [eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)
-
-***[Telegram @korkin25](https://t.me/korkin25)***
-
-***[Whatsapp +7-915-495-8170](https://wa.me/79154958170)***
-
-***[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)***
+# Eugenii Kuzakov
 
 ## Position of Interest
-Senior DevOps Engineer Team Lead
+   Senior/Team Lead Devops Engineer
 
 ## Professional Experience
 
 - DevOps Engineer: 4+ Years
 - Systems Architect / Pre-sales Consultant / Business Development Manager: 10 Year
-- Lead Engineer (Software & Hardware): Over 15 Years
+- Lead Engineer (Software & Hardware): 15+ Years
 
 ## Professional Strengths
 
@@ -66,10 +56,10 @@ Senior DevOps Engineer Team Lead
 ## Public relations
 
 - ***25devops*** - news channel for **#kubernetes** **#docker** **#devsecops** and other **#devops** staff [[https://t.me/korkin25devops]](https://t.me/korkin25devops)
-- Kubernetes limits calc article [[https://habr.com/en/post/680918/]](https://habr.com/en/post/680918/)
+- ***Kubernetes limits calc article*** [[https://habr.com/en/post/680918/]](https://habr.com/en/post/680918/)
 
 ## Github projects
-- Kubernetes resource calculator: [[https://github.com/korkin25/kube-resource-calc]](https://github.com/korkin25/kube-resource-calc)
+- ***Kubernetes resource calculator*** [[https://github.com/korkin25/kube-resource-calc]](https://github.com/korkin25/kube-resource-calc)
 
 ## Potential Work Arrangements (@remote)
 - Full-time(preferred)
@@ -80,23 +70,32 @@ Senior DevOps Engineer Team Lead
 
 Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
+## Contacts
+***e-mail:*** [eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)
+
+***[Telegram @korkin25](https://t.me/korkin25)***
+
+***[Whatsapp +7-915-495-8170](https://wa.me/79154958170)***
+
+***[http://www.linkedin.com/in/eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)***
+
 ## Employment
 
 ### *Research and Development Senior DevOps engineer at* Hidden (Dec 2022 - Aug 2023)
 
-#### SaltStack and Vault Integration Enhancement
+##### SaltStack and Vault Integration Enhancement
 - Reworked the integration process between SaltStack and Vault.
 - Implemented caching of Vault data in Redis to boost performance. 
 - Developed a system for accessing multiple Vault endpoints, significantly enhancing efficiency.
 - Achieved a twofold increase in the speed of Vault operations, independent of Redis utilization.
 - Introduced "Enhanced Key" feature, allowing for the storage of dictionaries as separate Vault keys, a functionality not present in the original version. 
  
-#### Research company wide IAM, Single Sign-On (SSO) solution
+##### Research company wide IAM, Single Sign-On (SSO) solution
 - Conducted extensive research on Single Sign-On (SSO) authentication and access policy management.
 - Integrated Keycloak as the centralized source of truth.
 - Focused targets included SSH host access, Hashicorp Vault, and databases such as Postgres, Cassandra, Mongo, etc.
 
-#### SaltStack "Users" Formula Implementation
+##### SaltStack "Users" Formula Implementation
 - Managed Linux authentication objects, including the creation and deletion of users, groups, and their memberships.
  - Oversaw the configuration of all Linux attributes.
  - Controlled SSH access for management users.
@@ -105,12 +104,12 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ### *Head of DevOps at* Latoken - crypto-currency exchange (Sep 2022 - Oct 2022)
 
-#### Senior Responsibilities
+##### Senior Responsibilities
 - DevOps Infrastructure Audits: conducted comprehensive audits of the DevOps infrastructure to assess and improve systems.
 - Developed and strategized the company's roadmap for DevOps  and infrastructure initiatives.
 - Team Collaboration: close work with DevOps-team members and developers to ensure cohesive project execution.
  
-#### DevOps Tasks 
+##### DevOps Tasks 
 - High-Load Logging Cluster Deployment:
   - Deployed a high-load logging cluster for production Kubernetes clusters, processing approximately 300k messages per second.
   - Utilized OpenSearch on 5 hardware servers, complemented by 2 Logstash and 2 Haproxy VMs.
@@ -126,19 +125,19 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ### Senior DevOps at "Satel Pro" (https://satel.org) - software development company for government projects. (Oct 2019 Aug 2022)
  
-#### Leadership Role 
+##### Leadership Role 
  - Led the DevOps team in planning tasks, resources, and timelines
  - Mentored team members, aiding in their rapid skill enhancement and helping them become proficient DevOps engineers, who are content in their new roles
  - Worked closely with over five development teams 
  - Managed 2 Kubernetes dev/test clusters with loops for the entire development stack
  - Maintained 5 production Kubernetes clusters for clients 
  
-#### Comprehensive Rollout Rework 
+##### Comprehensive Rollout Rework 
  
  - Undertook a complete overhaul of the rollout using GitLab CI + Helm for the entire product stack
  - Developed and implemented a corporate methodology for a fully automated pipeline (using GitLab CI/CD) for project implementation and maintenance, which included: 
  
-##### Infrastructure as Code
+###### Infrastructure as Code
    - Preparation of OS images (using HashiCorp Packer)
    - Creation/modification of virtual machines (using HashiCorp Terraform, Cloud-init)
    - Kubernetes installation (using Kubespray, Kubeadm, etc.)
@@ -146,16 +145,16 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
    - Management of infrastructure services (such as Minio, Postgres/Stolon, Docker registry/cache, GitLab runners, DNS/Bind9, ELK, Prometheus, etc.)
    - Setup of logging and monitoring for the entire installed stack 
  
-##### GitOps
+###### GitOps
 - Automated rollout of microservices according to the release plan:
    - Development: automatic deployment from the "develop" branch
    - Release Candidate: automatic deployment from the "master" branch
    - Production: a consistent set of tested versions of microservices 
 
-##### Configuration Management  
+###### Configuration Management  
    - Used HashiCorp Vault for pipeline-sensitive data and Kubernetes configmaps/secrets 
  
-##### Continuous pipeline/deploy optimization 
+###### Continuous pipeline/deploy optimization 
  
 - Docker Builds: multistage, BuildKit(distributed layer caching, parallel stages building, and lazy loading), Alpine.
 - Language specific tuning/caching: repo caching for Java/Go/apt/npm/maven, container runtime optimization
@@ -165,13 +164,13 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ### *Systems architect at* «IBS Expertise» - the biggest systems integrator in Russia (https://www.ibs.ru/)) (Oct 2016 - Aug 2019)
 
-#### Systems Architect 
+##### Systems Architect 
  I perform analysis and structuring of the customer"s needs, 
  develop the technical architecture for complex projects, write 
  technical specifications, ensure solution protection, and handle 
  other related tasks. 
  
-#### Chief Project Engineer 
+##### Chief Project Engineer 
  
  I lead large-scale projects from intricate pre-sales stages through 
  to design and implementation. I am also responsible for the 
@@ -179,39 +178,39 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ### *Systems architect at* Technoserv - one of biggest, well known in Russia systems integrator company (*Jun 2014 - Aug 2016*) 
 
-#### Systems Architect 
+##### Systems Architect 
 specialize in analyzing and structuring customer needs, developing the technical architecture for complex projects, drafting technical and commercial proposals, and creating technical documentation among other tasks. 
 
-#### Chief Project Engineer
+##### Chief Project Engineer
    I handle the management of large-scale projects, guiding them from complex pre-sales stages through to design and implementation. 
 
-#### the biggest project
+##### the biggest project
    I serve as the main Architect for 112-Systems and am the primary IT Infrastructure Architect for the "Secure City" global project. 
 
 ### Systems architect/presale-manager at Open Technologies Ltd. - one of the most well known in Russia systems integrator company (Aug 2012 - Mar 2014)
 
-#### Business Development Manager (BDM) 
+##### Business Development Manager (BDM) 
 I have brought new vendors and solutions into the AMT product portfolio for the Russian/CIS market, and have conducted seminars for sales managers. 
  
-#### Pre-sales Manager
+##### Pre-sales Manager
 I have engaged in aggressive pre-sales activities, including customer meetings and presentations. I have a deep understanding of the advantages and disadvantages of various vendors, products,  technologies, and methods. I"m able to persuade my customers to choose the most suitable solutions based on various parameters. I continuously search for new vendors and products to introduce to our customers. 
  
-#### Chief Technical Project Manager 
+##### Chief Technical Project Manager 
 I manage large projects during complex pre-sales stages. This involves close collaboration with vendors, partners, customers, and others. 
 
 ### Head of data processing centers direction at "AMT Group" - one of well known in Russia systems integrator company (Jul 2008 - Jul 2012) 
 
-#### From a technical standpoint
+##### From a technical standpoint
 I serve as a team leader in high-end solution provision. 
 In my role as a Business Development Manager (BDM): I introduce new vendors and solutions to the Russian/CIS market for integration into the AMT product portfolio and customer base. I also conduct seminars for sales managers. 
  
-#### Product Manager 
+##### Product Manager 
 I coordinate operations with vendors such as EMC, IBM, Symantec, Azul, Varonis, and the AMT sales team. I"ve helped establish AMT Group partnerships with IBM, Symantec/Veritas, WorldITSystems Azul/Pillar, among others, and EMC. Some of these relationships were revived or entirely new for the AMT Group, involving numerous certifications and extensive work with the AMT Group"s top management to drive more business into the company. 
  
-#### Pre-sales Manager 
+##### Pre-sales Manager 
 I engage in high levels of pre-sales activities to introduce products, technologies, and projects to customers. Over the past year, I"ve honed my skills in this area, managing customer meetings, technical offer documents, demonstrations, and tender documentation effectively. 
  
-#### Engineer 
+##### Engineer 
 I am responsible for setting up the hardware/software of vendors like EMC, Veritas, Sun, and Azul. 
 
 ### Senior systems engineer at "Open Technologies Ltd" - one of biggest, well known in Russia systems integrator company (Feb 2001 - Jun 2008) 
