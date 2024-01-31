@@ -24,9 +24,5 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        for file in *.pdf; do
-          git add $file
-          git commit -m "Add generated $file"
-        done
-        git remote set-url origin https://${{ secrets.GH_REPO_UPDATE_USER }}:${{ secrets.GH_REPO_UPDATE_TOKEN }}@github.com/korkin25/cv.git
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/korkin25/cv.git
         git push
