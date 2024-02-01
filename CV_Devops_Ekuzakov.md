@@ -318,8 +318,3 @@ References:
 - HP Star Certified OpenView Consultant: Operations I (6.03) 19 Oct 2002
 - H4357S HP OpenView VantagePoint Operations II 15-18 July 2002
 - H4356A HP OpenView VantagePoint Operations I 8-11 July 2002
-- Brainbench: HTML Programmer 29 Sept 1999
-- Brainbench: C Programmer 14 Aug 1999
-- Brainbench: Internet Security Specialist 20 July 1999
-- Brainbench: Unix Programmer 11 July 1999
-- Brainbench: Master Unix Administrator 17 May 1999
