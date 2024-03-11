@@ -15,6 +15,7 @@ jobs:
 
       - name: Install apt-get dependencies
         run: |
+          sudo apt-get update
           sudo apt-get install pandoc weasyprint
 
       - name: Convert Markdown to PDF
