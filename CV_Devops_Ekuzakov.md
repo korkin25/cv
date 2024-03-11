@@ -36,7 +36,7 @@
 
 ## Software stack
 - **Scripting languages**: bash, python, sed, awk, egrep + etc
-- **Cloud Platforms**: Hetzner, DigitalOcean, AWS
+- **Cloud Platforms**: Hetzner, DigitalOcean, GCP, AWS
 - **Virtualization**: VMware vSphere, VirtualBox
 - **Kubernetes Bootstrappers**: Kubeadm, Kubespray, k0s, Terraform
 - **Kubernetes Networking (CNI)**: Cilium, Calico, Weave
