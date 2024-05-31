@@ -273,8 +273,8 @@ References:
 
 References: 
 
-- Dev team lead Satel Pro [[@Alex9952]]
-- Paul Romanchenko [[paul@justnews.ru]](mailto:paul@justnews.ru) 
+- Alexander Mitin (Dev team lead Satel Pro) [Telegram @Alex9952](https://t.me/Alex9952) [[@Alex9952]]
+- Paul Romanchenko [Telegram @rmrfchik] (https://t.me/rmrfchik)
 
 ## Outdated
 
