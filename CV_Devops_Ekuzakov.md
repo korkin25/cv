@@ -19,7 +19,7 @@
 
 ## Language Proficiency
 
-- English: Between B1 Intermediate and B2 Upper Intermediate
+- English: B2 (Upper Intermediate)
 
 ## Core Professional Skills
 
