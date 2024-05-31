@@ -273,7 +273,7 @@ References:
 
 References: 
 
-- Company"s director Serge Bush  [[bush@lab321.ru]](mailto:bush@lab321.ru) 
+- Dev team lead Satel Pro [[@Alex9952]]
 - Paul Romanchenko [[paul@justnews.ru]](mailto:paul@justnews.ru) 
 
 ## Outdated
