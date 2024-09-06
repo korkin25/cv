@@ -1,4 +1,4 @@
-# Eugenii Kuzakov
+# Evgenii Kuzakov
    https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf
 
 ## Position of Interest
