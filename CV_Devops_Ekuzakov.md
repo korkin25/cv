@@ -10,22 +10,20 @@
 - Systems Architect / Pre-sales Consultant / Business Development Manager: 10 Year
 - Lead Engineer (Software & Hardware): 15+ Years
 
-## Professional Strengths
+## Professional Attributes
 
-- Proficient in architecture
-- Results-oriented approach
-- Excellent communication skills and openness
-- Active stance in both professional and personal life
+- Results-oriented, with excellent communication skills and an active stance in both professional and personal life.
+- Proficient in architecture and team leadership.
+
+## Core Professional Skills
+
+- Advanced proficiency in DevOps methodologies.
+- Extensive experience designing technical architecture for complex projects.
+- Significant expertise in project management, team coordination, and crafting technical proposals.
 
 ## Language Proficiency
 
 - English: B2 (Upper Intermediate)
-
-## Core Professional Skills
-
-- Advanced proficiency in DevOps, including team leadership
-- Extensive experience in designing technical architecture for complex projects
-- Significant expertise in technical project management, team coordination, and crafting complex technical proposals
 
 ## DevOps Experience
 
@@ -34,25 +32,28 @@
 - ***Kubernetes from scratch***: bare-metal (kubeadm, kubespray, k0s) clouds (terraform), with focus on security, networking, logging, and monitoring
 - ***Highload*** experience: National scale project - Unified call center of the Russian Pension Fund
 
+## Cloud Providers
+- **Yandex**: IAM, Compute Cloud, VPC, DNS, Network Load Balancer (NLB), Application Load Balancer (ALB), Managed PostgreSQL, Managed Redis, Cloud Logging, Lockbox, Object Storage
+- **AWS**: IAM, EC2, EKS, Elastic Load Balancing, S3, RDS, Route 53, ACM
+- **GCP**: IAM, Compute Engine, Kubernetes Engine, Cloud Load Balancing, Cloud Storage (GCS), Cloud SQL, Cloud DNS, Certificate Manager
+
 ## Software stack
 - **Scripting languages**: bash, python, sed, awk, egrep + etc
-- **Cloud Platforms**: Yandex, GCP, AWS, Hetzner, DigitalOcean
 - **Virtualization**: VMware vSphere, VirtualBox
-- **Kubernetes Bootstrappers**: Kubeadm, Kubespray, k0s, Terraform
+- **Kubernetes Bootstrappers**: kubeadm, kubespray, k0s
 - **Kubernetes Networking (CNI)**: Cilium, Calico, Weave
 - **Kubernetes Container Runtime (CRI)**: Containerd, Docker
-- **Docker image builders**: Docker/build_kit, Kaniko
+- **Docker image builders**: docker+build_kit, Kaniko
 - **Ingress Controllers**: Nginx, Haproxy
 - **CI/CD**: GitLab CI/CD, GitHub Actions
 - **Docker registry**: Nexus, Harbor
-- **Kubernetes deployments**: Helm, Helmfile
-- **Infrastructure as Code**: Terraform, Terramate, Packer, Ansible, SaltStack
+- **GitOps**: Helm, Helmfile, Kustomize, ArgoCD, FluxCD
+- **Infrastructure as Code**: Terraform, Terramate, Ansible, SaltStack
 - **Logging**: ELK/OpenSearch, Logstash, Fluent Bit, Fluentd
-- **Message streaming**: Kafka (Strimzi), ActiveMQ
-- **Security**: Hashicorp Vault
+- **Message streaming**: Kafka, ActiveMQ
+- **Security**: Hashicorp Vault, Keycloak, Pod Security Standards
 - **Monitoring**: Prometheus/Grafana
-- **Databases/management**: PostgreSQL, Stolon, Consul
-- **Misc**: MetalLB, GeoServer, Grafana, Hasura, Keycloak, Liquibase,Node.js, Angular, Consul, PoWA, etc.
+- **Postgres management/clustering**: stolon, cloudnativepg, PoWA, liquibase
 
 ## Public relations
 
@@ -77,25 +78,26 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ## Employment
 
-### *Senior DevOps Engineer at* HRS Interbational (Jul 2023 - Present)
+### Senior DevOps Engineer — HRS International (Jul 2023 — Present)
 
-##### Kubernetes and Cloud Infrastructure Management
-- Designed and implemented robust Kubernetes clusters using Yandex Managed Kubernetes Service
-- Architected and managed comprehensive Yandex Cloud managed services (vps, DNS, certificates/ACME, , compute instances, kubernetes, object storage, nlb, alb, PosgtresQL, IAM, KMS, logging)
-- Optimized resource allocation and implemented advanced scaling strategies for microservices architecture
+##### Operating model and ideology
+- Separated infrastructure implementation (Terraform modules, Helm/Helmfile, Kubernetes manifests) from configuration (Terramate globals, environment catalogs), enabling independent life cycles for code and config
+- GitOps-first: all infra/app changes via merge requests; environments (dev/test/prod and client tenants) are declaratively described and promoted
+- Cloud-agnostic layout: provider-specific modules behind stable interfaces, allowing migration between Yandex/AWS/GCP with minimal config changes
 
-##### Infrastructure as Code and Automation
-- Created comprehensive Terraform modules for Yandex Cloud infrastructure provisioning
-- Developed a cloud-agnostic Terraform approach for infrastructure management, enabling seamless migration between different cloud providers
-- Developed and maintained CI/CD pipelines using GitLab CI for infrastructure and application deployments
-- Managed creation and maintenance of virtual infrastructure exclusively through git commits (IAC)
-- Designed and implemented architecture separating configuration at terramate globals level from terraform code, enabling independent/modular development of new IAC functionality while managing existing development, testing, and production environments for both company and client infrastructure
+##### Kubernetes and cloud platform
+- Designed and operated production-grade clusters on Yandex Managed Kubernetes Service
+- Built and governed Yandex Cloud services: VPC, DNS, certificates/ACME, Compute, Object Storage, NLB/ALB, Managed PostgreSQL, IAM, KMS, logging
+- Optimized resource allocation and implemented advanced scaling strategies for microservices
 
-##### Security and Compliance Implementation
-- Implemented security best practices across the Kubernetes ecosystem including Pod Security Standards
-- Configured and managed Hashicorp Vault for secrets management with automated rotation policies
-- Designed and implemented network policies for zero-trust architecture
-- Conducted regular security audits and implemented remediation strategies
+##### Infrastructure as Code and automation
+- Authored reusable Terraform modules and Terramate stacks for predictable provisioning and multi-env management
+- Implemented CI/CD in GitLab for infra and app rollouts, with policy checks, plans/previews, and automatic promotions
+- Managed virtual infrastructure exclusively through Git commits (IaC), including drift detection and reconciliation
+
+##### Security and compliance
+- Enforced Pod Security Standards, network policies (zero-trust), and secrets management with HashiCorp Vault (incl. automated rotation)
+- Conducted regular security audits and remediation campaigns across clusters and cloud accounts
 
 ### *Research and Development Senior DevOps engineer at* SoftSwiss (Dec 2022 - Aug 2023)
 
