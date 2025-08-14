@@ -6,7 +6,7 @@
 
 ## Professional Experience
 
-- DevOps Engineer: 4+ Years
+- DevOps Engineer: 6+ Years
 - Systems Architect / Pre-sales Consultant / Business Development Manager: 10 Year
 - Lead Engineer (Software & Hardware): 15+ Years
 
@@ -36,7 +36,7 @@
 
 ## Software stack
 - **Scripting languages**: bash, python, sed, awk, egrep + etc
-- **Cloud Platforms**: Hetzner, DigitalOcean, GCP, AWS
+- **Cloud Platforms**: Yandex, GCP, AWS, Hetzner, DigitalOcean
 - **Virtualization**: VMware vSphere, VirtualBox
 - **Kubernetes Bootstrappers**: Kubeadm, Kubespray, k0s, Terraform
 - **Kubernetes Networking (CNI)**: Cilium, Calico, Weave
@@ -46,7 +46,7 @@
 - **CI/CD**: GitLab CI/CD, GitHub Actions
 - **Docker registry**: Nexus, Harbor
 - **Kubernetes deployments**: Helm, Helmfile
-- **Infrastructure as Code**: Terraform, Packer, Ansible, SaltStack
+- **Infrastructure as Code**: Terraform, Terramate, Packer, Ansible, SaltStack
 - **Logging**: ELK/OpenSearch, Logstash, Fluent Bit, Fluentd
 - **Message streaming**: Kafka (Strimzi), ActiveMQ
 - **Security**: Hashicorp Vault
@@ -77,7 +77,27 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ## Employment
 
-### *Research and Development Senior DevOps engineer at* Hidden (Dec 2022 - Aug 2023)
+### *Senior DevOps Engineer at* HRS Interbational (Jul 2023 - Present)
+
+##### Kubernetes and Cloud Infrastructure Management
+- Designed and implemented robust Kubernetes clusters using Yandex Managed Kubernetes Service
+- Architected and managed comprehensive Yandex Cloud managed services (vps, DNS, certificates/ACME, , compute instances, kubernetes, object storage, nlb, alb, PosgtresQL, IAM, KMS, logging)
+- Optimized resource allocation and implemented advanced scaling strategies for microservices architecture
+
+##### Infrastructure as Code and Automation
+- Created comprehensive Terraform modules for Yandex Cloud infrastructure provisioning
+- Developed a cloud-agnostic Terraform approach for infrastructure management, enabling seamless migration between different cloud providers
+- Developed and maintained CI/CD pipelines using GitLab CI for infrastructure and application deployments
+- Managed creation and maintenance of virtual infrastructure exclusively through git commits (IAC)
+- Designed and implemented architecture separating configuration at terramate globals level from terraform code, enabling independent/modular development of new IAC functionality while managing existing development, testing, and production environments for both company and client infrastructure
+
+##### Security and Compliance Implementation
+- Implemented security best practices across the Kubernetes ecosystem including Pod Security Standards
+- Configured and managed Hashicorp Vault for secrets management with automated rotation policies
+- Designed and implemented network policies for zero-trust architecture
+- Conducted regular security audits and implemented remediation strategies
+
+### *Research and Development Senior DevOps engineer at* SoftSwiss (Dec 2022 - Aug 2023)
 
 ##### SaltStack and Vault Integration Enhancement
 - Reworked the integration process between SaltStack and Vault.
