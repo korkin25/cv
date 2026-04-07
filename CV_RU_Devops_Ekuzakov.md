@@ -1,13 +1,8 @@
-# Евгений Кузаков
-
-**Senior / Team Lead DevOps Engineer**  
-Создаю production-ready Kubernetes-платформы с нуля — от кластера до доставки приложений за 15–30 минут через GitOps и IaC
-
-7 лет в DevOps · 15+ лет в инженерии · Английский B2 · Remote  
-[PDF version](https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf)
-
-Email: [eugeny.kuzakov@gmail.com](mailto:eugeny.kuzakov@gmail.com) · Telegram: [@korkin25](https://t.me/korkin25) · LinkedIn: [eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)  
-WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
+# Евгений Кузаков - **Senior / Team Lead DevOps Engineer**  
+- Создаю production-ready Kubernetes-платформы с нуля — от кластера до доставки приложений за 15–30 минут через GitOps и IaC
+- 7 лет в DevOps
+- 15+ лет в инженерии
+- Английский B2
 
 ---
 
@@ -19,6 +14,7 @@ WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
 
 ## Ключевые навыки
 
+**GPU / AI workloads:** GPU Operator, vLLM, NVIDIA GPU workloads в VFIO/KubeVirt, контейнерах и Linux native environments  
 **Kubernetes и GitOps:** Talos, FluxCD, Argo CD, Argo Rollouts, Helm, Helmfile, Kustomize, Cilium, Gateway API  
 **IaC и автоматизация:** Terraform, Terramate, Ansible, SaltStack, Packer  
 **CI/CD:** GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko  
@@ -109,6 +105,11 @@ WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
 ## Формат работы
 
 Remote · Full-time (preferred) · Part-time · Consulting
+
+[PDF version](https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf)
+
+Email: [eugeny.kuzakov@gmail.com](mailto:eugeny.kuzakov@gmail.com) · Telegram: [@korkin25](https://t.me/korkin25) · LinkedIn: [eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)  
+WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
 
 ---
 

@@ -16,13 +16,13 @@ jobs:
       - name: Install apt-get dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install pandoc weasyprint
+          sudo apt-get install -y pandoc weasyprint fonts-liberation fonts-dejavu-core
+
+      - name: Make converter executable
+        run: chmod +x ./convert2pdf.sh
 
       - name: Convert Markdown to PDF
-        run: |
-          for file in *.md; do
-            pandoc --pdf-engine=weasyprint -s "${file}" -o "${file%.*}.pdf"
-          done
+        run: ./convert2pdf.sh
 
       - name: Commit PDF
         run: |
@@ -31,6 +31,6 @@ jobs:
           for file in *.pdf; do
             git add "${file}"
           done
-          git commit -m "Auto convert Markdown to PDF"
+          git commit -m "Auto convert Markdown to PDF" || echo "No changes to commit"
           git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push
+          git push || echo "No changes to push"

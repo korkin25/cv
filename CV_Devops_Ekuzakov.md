@@ -1,13 +1,8 @@
-# Evgenii Kuzakov
-
-**Senior / Team Lead DevOps Engineer**  
-Building production-ready Kubernetes platforms from scratch — cluster to app delivery in 15–30 min via GitOps & IaC
-
-7 yrs DevOps · 15+ yrs Engineering · English B2 · Remote  
-[PDF version](https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf)
-
-Email: [eugeny.kuzakov@gmail.com](mailto:eugeny.kuzakov@gmail.com) · Telegram: [@korkin25](https://t.me/korkin25) · LinkedIn: [eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)  
-WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
+# Evgenii Kuzakov - **Senior / Team Lead DevOps Engineer**  
+- Building production-ready Kubernetes platforms from scratch — cluster to app delivery in 15–30 min via GitOps & IaC
+- 7 yrs DevOps
+- 15+ yrs Engineering
+- English B2
 
 ---
 
@@ -19,6 +14,7 @@ WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
 
 ## Core Skills
 
+**GPU / AI Workloads:** GPU Operator, vLLM, NVIDIA GPU workloads in VFIO/KubeVirt, containers, and Linux native environments  
 **Kubernetes & GitOps:** Talos, FluxCD, Argo CD, Argo Rollouts, Helm, Helmfile, Kustomize, Cilium, Gateway API  
 **IaC & Automation:** Terraform, Terramate, Ansible, SaltStack, Packer  
 **CI/CD:** GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko  
@@ -110,6 +106,11 @@ Omsk State Technical University — "Metrology and Device Manufacturing" faculty
 
 Remote · Full-time (preferred) · Part-time · Consulting
 
+[PDF version](https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf)
+
+Email: [eugeny.kuzakov@gmail.com](mailto:eugeny.kuzakov@gmail.com) · Telegram: [@korkin25](https://t.me/korkin25) · LinkedIn: [eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)  
+WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
+
 ---
 
 ## Prior Experience
@@ -120,3 +121,4 @@ Remote · Full-time (preferred) · Part-time · Consulting
 - **AMT Group** — Head of Data Processing Centers / Product Manager (Jul 2008 – Jul 2012): Led business development of enterprise infrastructure platforms and strategic vendor partnerships.
 - **Open Technologies Ltd.** — Senior Systems Engineer (Feb 2001 – Jun 2008): Delivered HA, storage, SAN, clustering, and DR solutions for large data center projects.
 - **Earlier roles** (1994–2000): Systems/Network Administrator at International Trading Bank, Plusinfo, and Laboratory 321 Ltd.
+
