@@ -4,64 +4,59 @@
 ## Position of Interest
    Senior/Team Lead Devops Engineer
 
-## Professional Experience
+## Professional Summary
 
-- DevOps Engineer: 6+ Years
-- Systems Architect / Pre-sales Consultant / Business Development Manager: 10 Year
-- Lead Engineer (Software & Hardware): 15+ Years
-
-## Professional Attributes
-
-- Results-oriented, with excellent communication skills and an active stance in both professional and personal life.
-- Proficient in architecture and team leadership.
-
-## Core Professional Skills
-
-- Advanced proficiency in DevOps methodologies.
-- Extensive experience designing technical architecture for complex projects.
-- Significant expertise in project management, team coordination, and crafting technical proposals.
+- Senior DevOps Engineer with 7 years of hands-on experience, plus 10 years in systems architecture / pre-sales / business development and 15+ years in engineering roles.
+- Results-oriented professional with strong communication skills, hands-on leadership experience, and a solid architecture background.
+- Advanced in DevOps methodologies, technical architecture design, and building scalable platforms for complex projects.
+- Experienced in team leadership, project coordination, and translating business needs into practical technical solutions and proposals.
 
 ## Language Proficiency
 
 - English: B2 (Upper Intermediate)
 
-## DevOps Experience
-
-- Senior DevOps Engineer with team ***leadership experience***
-- ***Python developer***
-- ***Kubernetes from scratch***: bare-metal (kubeadm, kubespray, k0s) clouds (terraform), with focus on security, networking, logging, and monitoring
-- ***Highload*** experience: National scale project - Unified call center of the Russian Pension Fund
-
 ## Cloud Providers
-- **Yandex**: IAM, Compute Cloud, VPC, DNS, Network Load Balancer (NLB), Application Load Balancer (ALB), Managed PostgreSQL, Managed Redis, Cloud Logging, Lockbox, Object Storage
-- **AWS**: IAM, EC2, EKS, Elastic Load Balancing, S3, RDS, Route 53, ACM
-- **GCP**: IAM, Compute Engine, Kubernetes Engine, Cloud Load Balancing, Cloud Storage (GCS), Cloud SQL, Cloud DNS, Certificate Manager
+
+| Provider | Services |
+| --- | --- |
+| Yandex | IAM, Compute Cloud, VPC, DNS, Network Load Balancer (NLB), Application Load Balancer (ALB), Managed PostgreSQL, Managed Redis, Cloud Logging, Lockbox, Object Storage |
+| AWS | IAM, EC2, EKS, Elastic Load Balancing, S3, RDS, Route 53, ACM |
+| GCP | IAM, Compute Engine, Kubernetes Engine, Cloud Load Balancing, Cloud Storage (GCS), Cloud SQL, Cloud DNS, Certificate Manager |
+| DigitalOcean | Droplets, Networking, Load Balancers, Managed Kubernetes |
 
 ## Software stack
-- **Scripting languages**: bash, python, sed, awk, egrep + etc
-- **Virtualization**: VMware vSphere, VirtualBox
-- **Kubernetes Bootstrappers**: kubeadm, kubespray, k0s
-- **Kubernetes Networking (CNI)**: Cilium, Calico, Weave
-- **Kubernetes Container Runtime (CRI)**: Containerd, Docker
-- **Docker image builders**: docker+build_kit, Kaniko
-- **Ingress Controllers**: Nginx, Haproxy
-- **CI/CD**: GitLab CI/CD, GitHub Actions
-- **Docker registry**: Nexus, Harbor
-- **GitOps**: Helm, Helmfile, Kustomize, ArgoCD, FluxCD
-- **Infrastructure as Code**: Terraform, Terramate, Ansible, SaltStack
-- **Logging**: ELK/OpenSearch, Logstash, Fluent Bit, Fluentd
-- **Message streaming**: Kafka, ActiveMQ
-- **Security**: Hashicorp Vault, Keycloak, Pod Security Standards
-- **Monitoring**: Prometheus/Grafana
-- **Postgres management/clustering**: stolon, cloudnativepg, PoWA, liquibase
 
-## Public relations
+| Area | Stack |
+| --- | --- |
+| Scripting languages | bash, Python, sed, awk, egrep + etc |
+| Virtualization | VMware vSphere, VirtualBox, KubeVirt |
+| Kubernetes Bootstrappers / OS | Talos, k0s, ~~kubespray, kubeadm~~ |
+| Kubernetes Networking (CNI) | Cilium, Calico, Weave |
+| Kubernetes Container Runtime (CRI) | Containerd |
+| Progressive Delivery / Deployment | Argo CD/Rollouts |
+| Docker image builders | docker+build_kit, Kaniko |
+| ~~Ingress Controllers~~ / Traffic Management | ~~Nginx, Haproxy~~ migrated to Gateway API (Cilium) |
+| CI/CD | GitLab CI/CD, GitHub Actions |
+| Docker registry / Object Storage | Nexus, Harbor, MinIO |
+| GitOps | FluxCD, ArgoCD, Kustomize, Helmfile, Helm |
+| Infrastructure as Code | Terraform, Terramate, Ansible, SaltStack |
+| Logging | ELK/OpenSearch, Logstash, Fluent Bit, Fluentd |
+| Security / Secrets / IAM | HashiCorp Vault, External Secrets, Keycloak, Authentik |
+| Monitoring | Prometheus/Grafana, Loki |
+| Postgres management/clustering | stolon, CloudNativePG, PoWA, liquibase |
+| GPU / AI workloads | vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery |
 
+## Open projects and publications
+- ***Open CI/CD*** — ready-to-use GitLab CI/CD templates [[https://gitlab.com/open_ci_cd/templates]](https://gitlab.com/open_ci_cd/templates)
+  - Docker builds with BuildKit cache stored in the registry
+  - Helm packaging
+  - Support deploy: k8s via ArgoCD/FluxCD and docker swarm.
+  - Security: SAST scanning, and cosign artifact signing
+  - Automated changelog updates
+  - Change detection to skip unnecessary jobs for maximun CI/CD performanse
+- ***Kubernetes resource calculator*** [[https://github.com/korkin25/kube-resource-calc]](https://github.com/korkin25/kube-resource-calc)
 - ***25devops*** - news channel for **#kubernetes** **#docker** **#devsecops** and other **#devops** staff [[https://t.me/korkin25devops]](https://t.me/korkin25devops)
 - ***Kubernetes limits calc article*** [[https://habr.com/en/post/680918/]](https://habr.com/en/post/680918/)
-
-## Github projects
-- ***Kubernetes resource calculator*** [[https://github.com/korkin25/kube-resource-calc]](https://github.com/korkin25/kube-resource-calc)
 
 ## Potential Work Arrangements (@remote)
 Full-time(preferred), Part-time, Consulting
@@ -78,7 +73,28 @@ Omsk State Technical University, "Metrology and Device manufacturing" faculty
 
 ## Employment
 
-### Senior DevOps Engineer — HRS International (Jul 2023 — Present)
+### DevOps Engineer — NDA (Sep 2025 — Present)
+
+##### Platform engineering and SDLC foundation
+- Built the entire SDLC platform from scratch, establishing a fully automated delivery and operations model for infrastructure and applications
+- Implemented a strict no-manual-operations approach: 100% automation via Infrastructure as Code and GitOps
+- Reduced new cluster provisioning time to 15–30 minutes for a production-ready environment with the full baseline platform stack
+
+##### Kubernetes platform and core technologies
+- Designed and deployed Kubernetes platforms based on Talos across DigitalOcean, vSphere, and rented bare-metal servers, including kexec-based installation flows
+- Standardized infrastructure delivery with FluxCD for platform/infrastructure reconciliation and Argo CD for developer-facing application workflows
+- Implemented progressive delivery with Argo Rollouts
+- Built and operated the core platform stack including MinIO Operator, CloudNativePG, Vault, External Secrets, KubeVirt, vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery, and migrated HTTP traffic management from Ingress controllers to Gateway API with Cilium
+
+##### Identity, security, and secrets
+- Integrated Authentik as the central identity layer with GitLab and GitHub as IdPs, providing SSO integration across platform services
+- Automated secrets bootstrap and service dependency initialization through Vault, enabling reliable startup of secret-dependent services without manual intervention
+
+##### End-to-end automation workflow
+- Implemented an end-to-end cluster bootstrap pipeline where Terraform provisions Talos clusters and installs Flux/flux-sync, Flux deploys the entire infrastructure stack, and post-bootstrap scripts populate Vault credentials to unlock dependent services
+- Created a developer-friendly operating model where infrastructure remains managed through FluxCD while application teams work more comfortably through Argo CD
+
+### Senior DevOps Engineer — HRS International (Jul 2023 — Aug 2025)
 
 ##### Operating model and ideology
 - Separated infrastructure implementation (Terraform modules, Helm/Helmfile, Kubernetes manifests) from configuration (Terramate globals, environment catalogs), enabling independent life cycles for code and config
