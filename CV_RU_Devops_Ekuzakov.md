@@ -1,164 +1,123 @@
 # Евгений Кузаков
-   https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf
 
-## Желаемая позиция
-   Senior/Team Lead Devops Engineer
+**Senior / Team Lead DevOps Engineer**  
+Создаю production-ready Kubernetes-платформы с нуля — от кластера до доставки приложений за 15–30 минут через GitOps и IaC
 
-## Профессиональный опыт
+7 лет в DevOps · 15+ лет в инженерии · Английский B2 · Remote  
+[PDF version](https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf)
 
-- Инженер DevOps: 4+ года
-- Системный архитектор / Пресейл консультант / Менеджер по развитию бизнеса: 10 лет
-- Ведущий инженер (программное и аппаратное обеспечение): 15+ лет
+Email: [eugeny.kuzakov@gmail.com](mailto:eugeny.kuzakov@gmail.com) · Telegram: [@korkin25](https://t.me/korkin25) · LinkedIn: [eugenykuzakov](http://www.linkedin.com/in/eugenykuzakov)  
+WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
 
-## Профессиональные качества
+---
 
-- Эксперт в архитектуре
-- Ориентация на результат
-- Отличные коммуникативные навыки и открытость
-- Активная позиция в профессиональной и личной жизни
+## Профессиональное резюме
 
-## Владение языками
+- **От платформы с нуля до production за минуты:** Создавал end-to-end SDLC-платформы с нуля — Terraform поднимает Talos-кластеры, FluxCD приводит платформу к целевому состоянию, Argo CD доставляет приложения — сокращая запуск нового окружения с дней до 15–30 минут.
+- **Мультиоблачный Kubernetes в production:** Проектировал и эксплуатировал Kubernetes в 4 средах (DigitalOcean, vSphere, bare metal, Yandex MKS), управляя 7+ production-кластерами и поддерживая 5+ команд разработки в единой GitOps-first модели.
+- **Измеримые результаты:** Добился 10x ускорения доступа к данным Vault за счёт Redis-кэширования, развернул платформу логирования на 300k msg/s на базе OpenSearch и устранил ручные операции благодаря 100% IaC/GitOps-автоматизации.
 
-- Английский: B2 (Upper Intermediate)
+## Ключевые навыки
 
-## Ключевые профессиональные навыки
+**Kubernetes и GitOps:** Talos, FluxCD, Argo CD, Argo Rollouts, Helm, Helmfile, Kustomize, Cilium, Gateway API  
+**IaC и автоматизация:** Terraform, Terramate, Ansible, SaltStack, Packer  
+**CI/CD:** GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko  
+**Безопасность и секреты:** HashiCorp Vault, External Secrets, Keycloak, Authentik  
+**Наблюдаемость:** Prometheus, Grafana, Loki, ELK/OpenSearch, Fluent Bit  
+**Облака:** Yandex Cloud (основной), AWS, GCP, DigitalOcean
 
-- Продвинутые знания в DevOps, включая руководство командами
-- Обширный опыт проектирования технической архитектуры для сложных проектов
-- Значительный опыт технического управления проектами, координации команд и подготовки сложных технических предложений
+---
 
-## Опыт в DevOps
+## Опыт работы
 
-- Старший DevOps инженер с опытом ***руководства командами***
-- ***Python разработчик***
-- ***Kubernetes с нуля***: bare-metal (kubeadm, kubespray, k0s) облака (terraform), с акцентом на безопасность, сетевое взаимодействие, логирование и мониторинг
-- ***Опыт в высоконагруженных системах***: Национальный проект - Единый колл-центр Пенсионного фонда России
+### DevOps Engineer — NDA (сен 2025 – настоящее время)
 
-## Технологический стек
-- **Скриптовые языки**: bash, python, sed, awk, egrep и др.
-- **Облачные платформы**: Hetzner, DigitalOcean, GCP, AWS
-- **Виртуализация**: VMware vSphere, VirtualBox
-- **Кубернетес бутстраперы**: Kubeadm, Kubespray, k0s, Terraform
-- **Кубернетес сети (CNI)**: Cilium, Calico, Weave
-- **Кубернетес контейнеры (CRI)**: Containerd, Docker
-- **Сборка Docker образов**: Docker/build_kit, Kaniko
-- **Контроллеры Ingress**: Nginx, Haproxy
-- **CI/CD**: GitLab CI/CD, GitHub Actions
-- **Docker реестр**: Nexus, Harbor
-- **Развертывание Кубернетес**: Helm, Helmfile
-- **Инфраструктура как код**: Terraform, Packer, Ansible, SaltStack
-- **Логирование**: ELK/OpenSearch, Logstash, Fluent Bit, Fluentd
-- **Потоковая передача сообщений**: Kafka (Strimzi), ActiveMQ
-- **Безопасность**: Hashicorp Vault
-- **Мониторинг**: Prometheus/Grafana
-- **Базы данных/управление**: PostgreSQL, Stolon, Consul
-- **Прочее**: MetalLB, GeoServer, Grafana, Hasura, Keycloak, Liquibase,Node.js, Angular, Consul, PoWA и др.
+- Построил полноценную SDLC-платформу с нуля в модели zero-manual-operations — 100% IaC и GitOps, сократив время подготовки production-ready кластера с дней до **15–30 минут**.
+- Спроектировал Kubernetes-платформы на базе Talos в DigitalOcean, vSphere и на bare-metal серверах (включая kexec-based сценарии), используя FluxCD для платформы и Argo CD для доставки приложений.
+- Реализовал progressive delivery через Argo Rollouts и мигрировал управление трафиком с Ingress controllers на Gateway API с Cilium — повысив безопасность релизов и гибкость маршрутизации.
+- Построил end-to-end bootstrap pipeline: Terraform разворачивает Talos-кластеры, устанавливает Flux/flux-sync, а post-bootstrap автоматизация заполняет Vault-учётные данные для зависимых сервисов.
+- Эксплуатировал ключевые платформенные сервисы: MinIO Operator, CloudNativePG, Vault, External Secrets, KubeVirt, vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery.
+- Интегрировал Authentik с GitLab и GitHub как IdP — обеспечил SSO для всех платформенных сервисов.
 
-## Общественные связи
+### Senior DevOps Engineer — HRS International (июл 2024 – авг 2025)
 
-- ***25devops*** - новостной канал для **#kubernetes** **#docker** **#devsecops** и другого **#devops** контента [[https://t.me/korkin25devops]](https://t.me/korkin25devops)
-- ***Статья о калькуляции лимитов Kubernetes*** [[https://habr.com/en/post/680918/]](https://habr.com/en/post/680918/)
+- Построил cloud-agnostic платформенный layout для 3 провайдеров (Yandex, AWS, GCP) — разделил инфраструктурный код и конфигурацию, что позволило независимо управлять релизными циклами и снизить межкомандные конфликты.
+- Стандартизировал GitOps-first delivery для dev, test, prod и client-tenant окружений через merge-request-driven модель изменений.
+- Разрабатывал reusable Terraform-модули и Terramate-стеки, реализовал drift detection и reconciliation — все изменения инфраструктуры проходили через Git без ручных правок.
+- Эксплуатировал production-grade кластеры в Yandex MKS и управлял сервисами Yandex Cloud: VPC, DNS, NLB/ALB, Managed PostgreSQL, Object Storage, IAM, KMS.
+- Внедрил Pod Security Standards, zero-trust network policies и управление секретами через Vault с автоматической ротацией.
 
-## Проекты на Github
-- ***Калькулятор ресурсов Kubernetes*** [[https://github.com/korkin25/kube-resource-calc]](https://github.com/korkin25/kube-resource-calc)
+### R&D Senior DevOps Engineer — SoftSwiss (дек 2022 – авг 2023)
 
-## Возможные рабочие условия (удаленно)
-Полная занятость (предпочтительно), частичная занятость, консалтинг
+- Переработал интеграцию SaltStack–Vault (Python): добился **2x** ускорения операций и **10x** ускорения доступа к данным за счёт Redis-кэширования, multi-endpoint access и поддержки Enhanced Key.
+- Исследовал и внедрил корпоративную IAM/SSO-модель с Keycloak как единым источником идентификации.
+- Реализовал SaltStack Users formula для управления пользователями и группами, SSH-доступом, 2FA и authorized_keys.
+
+### Head of DevOps — Latoken (сен 2022 – окт 2022) · Contract/Audit
+
+- Провёл полный аудит DevOps-инфраструктуры, сформировал roadmap и развернул платформу логирования производительностью **~300k msg/s** на базе 5 OpenSearch-узлов, 2 Logstash и 2 HAProxy VM.
+- Внёс улучшения в community Ansible playbook для OpenSearch: Vagrant-based testing, reduced root requirements, optional UFW/Logstash integration и примеры Fluent Bit.
+
+### Senior DevOps — Satel Pro (окт 2019 – авг 2022)
+
+- Руководил DevOps-доставкой для 5+ команд разработки, управляя 2 dev/test и 5 production Kubernetes-кластерами.
+- Построил полностью автоматизированный pipeline: Packer-образы → Terraform/Cloud-init VM → установка Kubernetes → сервисы через Helmfile → мониторинг и логирование — исключив ручные этапы provisioning.
+- Перестроил rollout-модель на GitLab CI + Helm, внедрил release-driven процессы (dev → RC → prod) и защитил секреты через Vault.
+- Оптимизировал Docker-сборки (multistage, BuildKit, distributed caching, lazy loading) и усилил надёжность workloads через requests/limits, probes, PDB и read-only filesystems.
+
+---
+
+## Открытые проекты и публикации
+
+- **[Open CI/CD](https://gitlab.com/open_ci_cd/templates)** — production-grade шаблоны GitLab CI/CD, повторно используемые в нескольких проектах без модификаций. Включают Docker BuildKit-сборки, Helm-деплой (ArgoCD/FluxCD/Swarm), SAST, подпись артефактов через cosign, changelog и change detection для пропуска лишних job.
+- **[Kubernetes Resource Calculator](https://github.com/korkin25/kube-resource-calc)** — CLI-инструмент для расчёта requests и limits в Kubernetes.
+- **[Kubernetes Limits Calc Article](https://habr.com/en/post/680918/)** — опубликованная статья на Habr.
+- **[25devops](https://t.me/korkin25devops)** — DevOps-канал о Kubernetes, Docker и DevSecOps.
+
+---
+
+## Полный стек технологий
+
+| Категория | Стек |
+| --- | --- |
+| Kubernetes и OS | Talos, k0s, Containerd, Cilium, Calico, Gateway API |
+| GitOps и доставка | FluxCD, Argo CD, Argo Rollouts, Helm, Helmfile, Kustomize |
+| IaC и управление конфигурацией | Terraform, Terramate, Ansible, SaltStack, Packer |
+| CI/CD и сборки | GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko |
+| Безопасность и IAM | HashiCorp Vault, External Secrets, Keycloak, Authentik |
+| Наблюдаемость | Prometheus, Grafana, Loki, ELK/OpenSearch, Logstash, Fluent Bit, Fluentd |
+| Данные и хранилища | CloudNativePG, Stolon, PoWA, Liquibase, MinIO, Nexus, Harbor |
+| Виртуализация | VMware vSphere, KubeVirt, VirtualBox |
+| GPU / AI | vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery |
+| Языки | Bash, Python |
+
+## Облачные провайдеры
+
+| Провайдер | Сервисы |
+| --- | --- |
+| Yandex Cloud | IAM, Compute Cloud, VPC, DNS, NLB, ALB, Managed PostgreSQL, Managed Redis, Cloud Logging, Lockbox, Object Storage |
+| AWS | IAM, EC2, EKS, ELB, S3, RDS, Route 53, ACM |
+| GCP | IAM, Compute Engine, Kubernetes Engine, Cloud Load Balancing, GCS, Cloud SQL, Cloud DNS, Certificate Manager |
+| DigitalOcean | Droplets, Networking, Load Balancers, Managed Kubernetes |
+
+---
 
 ## Образование
 
-Омский государственный технический университет, факультет "Метрология и приборостроение"
+Омский государственный технический университет — факультет «Метрология и приборостроение»
 
-## Контакты
-- ***e-mail:[eugeny.kuzakov@gmail.com](mailto://eugeny.kuzakov@gmail.com)***
-- ***[Telegram @korkin25](https://t.me/korkin25)***
-- ***[WhatsApp +7-915-495-8170](https://wa.me/79154958170)***
-- ***[LinkedIn](http://www.linkedin.com/in/eugenykuzakov)***
+## Формат работы
 
-## Трудовая деятельность
+Remote · Full-time (preferred) · Part-time · Consulting
 
-### *Research and Development Senior DevOps engineer at* Hidden (Dec 2022 - Aug 2023)
+---
 
-##### SaltStack and Vault Integration Enhancement
-- Переработал процесс интеграции между SaltStack и Vault.
-- Внедрил кэширование данных Vault в Redis для повышения производительности.
-- Разработал систему для доступа к нескольким конечным точкам Vault, что значительно повысило эффективность.
-- Добился двукратного увеличения скорости операций Vault, независимо от использования Redis.
-- Внедрил функцию "Enhanced Key", позволяющую хранить словари как отдельные ключи Vault, чего не было в оригинальной версии.
+## Предыдущий опыт
 
-##### Research company wide IAM, Single Sign-On (SSO) solution
-- Провел обширное исследование по аутентификации SSO и управлению политиками доступа.
-- Интегрировал Keycloak в качестве централизованного источника данных.
-- Основные цели включали доступ к хостам SSH, Hashicorp Vault и базам данных, таким как Postgres, Cassandra, Mongo и др.
-
-##### Реализация формулы SaltStack "Users"
-- Управлял объектами аутентификации Linux, включая создание и удаление пользователей, групп и их членства.
-- Контролировал конфигурацию всех атрибутов Linux.
-- Управлял доступом SSH для управляющих пользователей.
-- Внедрил Google Authenticator для генерации и хранения ключей 2FA в Vault и установил аутентификацию SSH 2FA для управляемых пользователей.
-- Управлял пользовательскими ключами authorized_keys для обеспечения безопасного доступа.
-
-### *Head of DevOps at* Latoken - crypto-currency exchange (Sep 2022 - Oct 2022)
-
-##### Senior Responsibilities
-- Аудиты инфраструктуры DevOps: проводил всесторонние аудиты инфраструктуры DevOps для оценки и улучшения систем.
-- Разработал и стратегировал дорожную карту компании для инициатив DevOps и инфраструктуры.
-- Командное сотрудничество: тесное сотрудничество с членами команды DevOps и разработчиками для обеспечения согласованного выполнения проектов.
-
-##### Задачи DevOps
-- Развертывание кластера журналирования для высоких нагрузок:
-  - Развернул кластер журналирования для production Kubernetes кластеров, обрабатывающий примерно 300k сообщений в секунду.
-  - Использовал OpenSearch на 5 серверных узлах, дополненных 2 VM Logstash и 2 VM Haproxy.
-  - Внедрил правила ребалансировки, согласующие каждый namespace Kubernetes с соответствующим индексом.
-  - Внес модификации в репозиторий OpenSearch Community (Ansible Playbook) ([OpenSearch Ansible Playbook](https://github.com/korkin25/opensearch-ansible-playbook)):
-      - Включил Vagrantfile для углубленного тестирования стека.
-      - Снизил необходимость выполнения операций на уровне root.
-      - Добавил функцию "host_download" для загрузки артефактов на Ansible контроллер, что облегчает удаленные операции в закрытых сегментах или при медленном интернете.
-      - Настроил опциональную поддержку Uncomplicated Firewall (UFW).
-      - Обеспечил опциональную интеграцию с Logstash.
-      - Улучшил playbook различными функциональными возможностями.
-      - Предоставил примеры конфигурации Fluent Bit для лучшей реализации.
-
-### *Senior DevOps в "Satel Pro"* (https://satel.org) - компания по разработке ПО для государственных проектов. (Окт 2019 - Авг 2022)
-
-##### Тимлид
- - Руководил командой DevOps в планировании задач, ресурсов и сроков
- - Наставлял членов команды, способствуя их быстрому повышению квалификации и превращению в квалифицированных DevOps инженеров, довольных своими новыми ролями
- - Работал в тесном сотрудничестве с более чем пятью командами разработчиков
- - Управлял 2 Kubernetes dev/test кластерами для всего стека разработки
- - Поддерживал 5 production Kubernetes кластеров для клиентов
-
-##### Полный пересмотр развертывания
- - Провел полный пересмотр развертывания с использованием GitLab CI + Helm для всего продуктового стека
- - Разработал и внедрил корпоративную методологию для полностью автоматизированного pipeline (с использованием GitLab CI/CD) для реализации и сопровождения проектов, включающую:
-
-###### Infrastructure as Code
-   - Подготовка образов ОС (с использованием HashiCorp Packer)
-   - Создание/модификация виртуальных машин (с использованием HashiCorp Terraform, Cloud-init)
-   - Kubernetes installation (using Kubespray, Kubeadm, etc.)
-   - Deployment of Kubernetes infrastructure services (using Helmfile/static manifests)
-   - Management of infrastructure services (such as Minio, Postgres/Stolon, Docker registry/cache, GitLab runners, DNS/Bind9, ELK, Prometheus и др.)
-   - Setup of logging and monitoring for the entire installed stack
-
-###### GitOps
-- Automated rollout of microservices according to the release plan:
-   - Development: automatic deployment from the "develop" branch
-   - Release Candidate: automatic deployment from the "master" branch
-   - Production: a consistent set of tested versions of microservices
-
-###### Configuration Management  
-   - Used HashiCorp Vault for pipeline-sensitive data and Kubernetes configmaps/secrets
-
-###### Continuous pipeline/deploy optimization
-
-- Docker Builds: multistage, BuildKit (distributed layer caching, parallel stages building, and lazy loading), Alpine.
-- Language specific tuning/caching: repo caching for Java/Go/apt/npm/maven, container runtime optimization
-- Java container runtime specific tuning: -XX:+UseCGroupMemoryLimitForHeap, -XX:MaxRAMFraction, preStop.
-- CI/CD: Artifact caching (Sonatype Nexus), universal templates
-- Kubernetes: capabilities, RO FS, res limits/requests, probes, scaling, PDB
-
-References: 
-
-- Alexander Mitin Dev team lead Satel Pro [Telegram @Alex9952](https://t.me/Alex9952)
-- Paul Romanchenko [Telegram @rmrfchik](https://t.me/rmrfchik)
+- **IBS Expertise** — Systems Architect / Chief Project Engineer (окт 2016 – авг 2019): проектировал технические архитектуры и вёл presales для крупных государственных и корпоративных проектов.
+- **Technoserv** — Systems Architect / Chief Project Engineer (июн 2014 – авг 2016): разрабатывал сложные инфраструктурные архитектуры и участвовал в крупных проектах, включая «Безопасный город».
+- **Open Technologies Ltd.** — Systems Architect / Chief Technical Project Manager (авг 2012 – мар 2014): развивал vendor portfolio и технический presales для enterprise-инфраструктуры.
+- **AMT Group** — Head of Data Processing Centers / Product Manager (июл 2008 – июл 2012): отвечал за развитие enterprise-платформ и стратегических партнёрств с вендорами.
+- **Open Technologies Ltd.** — Senior Systems Engineer (фев 2001 – июн 2008): внедрял HA, storage, SAN, clustering и DR-решения для крупных дата-центров.
+- **Ранние роли** (1994–2000): Systems/Network Administrator в International Trading Bank, Plusinfo и Laboratory 321 Ltd.
 
