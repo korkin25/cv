@@ -26,6 +26,11 @@
 
 ## Опыт работы
 
+- **Проектная деятельность — Cloudless Labs, проект Fluence (янв 2026 – мар 2026) ([cloudless.dev](https://cloudless.dev))**
+  - С помощью Terraform разработал интеграцию Authentik с GitHub как IdP и OIDC-авторизацию для NetBird, Kubernetes, Argo CD, Homepage, Cargo Registry и HashiCorp Vault.
+  - Выполнил тюнинг Talos, NVIDIA Device Plugin и GPU Operator для provisioning NVIDIA GPU в окружениях VFIO/KubeVirt.
+  - Провёл тесты производительности GPU workload в контейнерах, KubeVirt и на нативной Ubuntu для сравнения моделей развертывания и производительности.
+
 ### DevOps Engineer — NDA (сен 2025 – настоящее время)
 
 - Построил полноценную SDLC-платформу с нуля в модели zero-manual-operations — 100% IaC и GitOps, сократив время подготовки production-ready кластера с дней до **15–30 минут**.
@@ -34,11 +39,6 @@
 - Построил end-to-end bootstrap pipeline: Terraform разворачивает Talos-кластеры, устанавливает Flux/flux-sync, а post-bootstrap автоматизация заполняет Vault-учётные данные для зависимых сервисов.
 - Эксплуатировал ключевые платформенные сервисы: MinIO Operator, CloudNativePG, Vault, External Secrets, KubeVirt, vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery.
 - Интегрировал Authentik с GitLab и GitHub как IdP — обеспечил SSO для всех платформенных сервисов.
-
-- **Проектная деятельность — Cloudless Labs, проект Fluence (янв 2026 – мар 2026) ([cloudless.dev](https://cloudless.dev))**
-  - С помощью Terraform разработал интеграцию Authentik с GitHub как IdP и OIDC-авторизацию для NetBird, Kubernetes, Argo CD, Homepage, Cargo Registry и HashiCorp Vault.
-  - Выполнил тюнинг Talos, NVIDIA Device Plugin и GPU Operator для provisioning NVIDIA GPU в окружениях VFIO/KubeVirt.
-  - Провёл тесты производительности GPU workload в контейнерах, KubeVirt и на нативной Ubuntu для сравнения моделей развертывания и производительности.
 
 ### Senior DevOps Engineer — HRS International (июл 2024 – авг 2025)
 

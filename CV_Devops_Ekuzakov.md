@@ -26,6 +26,11 @@
 
 ## Employment
 
+- **Project activity — Cloudless Labs, Fluence project (Jan 2026 – Mar 2026) ([cloudless.dev](https://cloudless.dev))**
+  - Developed Terraform-based integration of Authentik with GitHub IdP and OIDC authorization for NetBird, Kubernetes, Argo CD, Homepage, Cargo Registry, and HashiCorp Vault.
+  - Tuned Talos, NVIDIA Device Plugin, and GPU Operator for provisioning NVIDIA GPUs across VFIO/KubeVirt environments.
+  - Ran GPU workload performance tests across containers, KubeVirt, and native Ubuntu environments to validate deployment models and performance characteristics.
+
 ### DevOps Engineer — NDA (Sep 2025 – Present)
 
 - Built a full SDLC platform from scratch with a zero-manual-operations model — 100% IaC and GitOps, reducing new production-ready cluster provisioning from days to **15–30 minutes**.
@@ -34,11 +39,6 @@
 - Built the end-to-end bootstrap pipeline: Terraform provisions Talos clusters, installs Flux/flux-sync, and post-bootstrap automation populates Vault credentials for all dependent services.
 - Operated core platform services: MinIO Operator, CloudNativePG, Vault, External Secrets, KubeVirt, vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery.
 - Integrated Authentik with GitLab and GitHub as IdPs — delivered SSO across all platform services.
-
-- **Project activity — Cloudless Labs, Fluence project (Jan 2026 – Mar 2026) ([cloudless.dev](https://cloudless.dev))**
-  - Developed Terraform-based integration of Authentik with GitHub IdP and OIDC authorization for NetBird, Kubernetes, Argo CD, Homepage, Cargo Registry, and HashiCorp Vault.
-  - Tuned Talos, NVIDIA Device Plugin, and GPU Operator for provisioning NVIDIA GPUs across VFIO/KubeVirt environments.
-  - Ran GPU workload performance tests across containers, KubeVirt, and native Ubuntu environments to validate deployment models and performance characteristics.
 
 ### Senior DevOps Engineer — HRS International (Jul 2024 – Aug 2025)
 
