@@ -35,6 +35,11 @@
 - Operated core platform services: MinIO Operator, CloudNativePG, Vault, External Secrets, KubeVirt, vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery.
 - Integrated Authentik with GitLab and GitHub as IdPs — delivered SSO across all platform services.
 
+- **Project activity — Cloudless Labs, Fluence project (Jan 2026 – Mar 2026) ([cloudless.dev](https://cloudless.dev))**
+  - Developed Terraform-based integration of Authentik with GitHub IdP and OIDC authorization for NetBird, Kubernetes, Argo CD, Homepage, Cargo Registry, and HashiCorp Vault.
+  - Tuned Talos, NVIDIA Device Plugin, and GPU Operator for provisioning NVIDIA GPUs across VFIO/KubeVirt environments.
+  - Ran GPU workload performance tests across containers, KubeVirt, and native Ubuntu environments to validate deployment models and performance characteristics.
+
 ### Senior DevOps Engineer — HRS International (Jul 2024 – Aug 2025)
 
 - Built a cloud-agnostic platform layout across 3 providers (Yandex, AWS, GCP) — decoupled infra code from config to enable independent release cycles and cut cross-team deployment conflicts.
