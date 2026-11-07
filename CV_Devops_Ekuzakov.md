@@ -31,14 +31,17 @@
   - Tuned Talos, NVIDIA Device Plugin, and GPU Operator for provisioning NVIDIA GPUs across VFIO/KubeVirt environments.
   - Ran GPU workload performance tests across containers, KubeVirt, and native Ubuntu environments to validate deployment models and performance characteristics.
 
-### DevOps Engineer — NDA (Sep 2025 – Present)
+### DevOps Engineer — CSSSR (Sep 2025 – Present)
 
-- Built a full SDLC platform from scratch with a zero-manual-operations model — 100% IaC and GitOps, reducing new production-ready cluster provisioning from days to **15–30 minutes**.
-- Designed Talos-based Kubernetes platforms across DigitalOcean, vSphere, and bare-metal servers (kexec-based flows), with FluxCD for platform reconciliation and Argo CD for application delivery.
-- Implemented progressive delivery with Argo Rollouts and migrated traffic management from Ingress controllers to Gateway API with Cilium — improving rollout safety and routing flexibility.
-- Built the end-to-end bootstrap pipeline: Terraform provisions Talos clusters, installs Flux/flux-sync, and post-bootstrap automation populates Vault credentials for all dependent services.
-- Operated core platform services: MinIO Operator, CloudNativePG, Vault, External Secrets, KubeVirt, vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery.
-- Integrated Authentik with GitLab and GitHub as IdPs — delivered SSO across all platform services.
+- Implemented the bank's standard for Kubernetes cluster management in an air-gapped environment with **100% IaC/GitOps automation**: a new Talos cluster on vSphere is deployed from Git in **15–30 minutes** (Terraform, Terramate, Flux) with zero manual steps.
+- Designed a two-tier cluster architecture: the platform `infra` cluster centralizes logging, metrics, the image registry, and backups, while workload clusters (dev, prod) connect to it over mTLS with no shared passwords.
+- Implemented centralized authorization on an in-house IAM (Authentik): OIDC single sign-on for Kubernetes, Vault, Argo CD, Grafana, Harbor, Garage, and Hubble UI, with group-based access.
+- Built centralized logging focused on quality: removed noise (audit volume cut by **~90%**), derived metrics from logs, and forwarded critical events to the bank's SIEM.
+- Delivered business observability: metrics and dashboards for BNPL operations, business-level alerts, and a service status feed for the customer.
+- Reduced a release to a branch merge: a new version reaches its environment in about **2 minutes**.
+- Unified .NET microservice builds with a single Dockerfile-based solution that makes maximum use of the BuildKit cache.
+- Set up backups of databases (full backups plus continuous WAL archiving with point-in-time recovery), Vault, and S3 storage.
+- Built a secure image supply chain: SAST and Cosign signing in CI, CVE scanning in Harbor, signing of third-party images only when free of critical vulnerabilities (exceptions tracked in Git with an owner and expiry), and a Kyverno policy that admits only signed images to the prod cluster.
 
 ### Senior DevOps Engineer — HRS International (Jul 2024 – Aug 2025)
 
