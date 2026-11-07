@@ -39,7 +39,8 @@
 - Moved **100%** of sensitive data into HashiCorp Vault: all credentials are generated, updated, and injected into services automatically via External Secrets.
 - Built centralized logging focused on quality: removed noise (audit volume cut by **~90%**), derived metrics from logs, and forwarded critical events to the bank's SIEM.
 - Delivered business observability: metrics and dashboards for BNPL operations, business-level alerts, and a service status feed for the customer.
-- Defined all service configuration through GitOps: each environment's parameters live in Git and are deployed by Argo CD ApplicationSets, and a release comes down to a branch merge — a new version reaches its environment in about **2 minutes**.
+- Defined all service configuration through GitOps: each environment is described by a single declarative manifest from which Argo CD ApplicationSets generate applications, and CI validates it against a JSON Schema.
+- Reduced a release to a branch merge: `chart-updater` automatically bumps service versions in the manifest, and a new version reaches its environment in about **2 minutes**.
 - Unified .NET microservice builds with a single Dockerfile-based solution that makes maximum use of the BuildKit cache.
 - Set up backups of databases (full backups plus continuous WAL archiving with point-in-time recovery), Vault, and S3 storage.
 - Built a secure image supply chain: SAST and Cosign signing in CI, CVE scanning in Harbor, signing of third-party images only when free of critical vulnerabilities (exceptions tracked in Git with an owner and expiry), and a Kyverno policy that admits only signed images to the prod cluster.
