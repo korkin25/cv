@@ -8,19 +8,12 @@
 
 ## Профессиональное резюме
 
-- **От платформы с нуля до production за минуты:** Создавал end-to-end SDLC-платформы с нуля — Terraform поднимает Talos-кластеры, FluxCD приводит платформу к целевому состоянию, Argo CD доставляет приложения — сокращая запуск нового окружения с дней до 15–30 минут.
-- **Мультиоблачный Kubernetes в production:** Проектировал и эксплуатировал Kubernetes в 4 средах (DigitalOcean, vSphere, bare metal, Yandex MKS), управляя 7+ production-кластерами и поддерживая 5+ команд разработки в единой GitOps-first модели.
-- **Измеримые результаты:** Добился 10x ускорения доступа к данным Vault за счёт Redis-кэширования, развернул платформу логирования на 300k msg/s на базе OpenSearch и устранил ручные операции благодаря 100% IaC/GitOps-автоматизации.
-
-## Ключевые навыки
-
-**GPU / AI workloads:** GPU Operator, vLLM, NVIDIA GPU workloads в VFIO/KubeVirt, контейнерах и Linux native environments  
-**Kubernetes и GitOps:** Talos, FluxCD, Argo CD, Argo Rollouts, Helm, Helmfile, Kustomize, Cilium, Gateway API  
-**IaC и автоматизация:** Terraform, Terramate, Ansible, SaltStack, Packer  
-**CI/CD:** GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko  
-**Безопасность и секреты:** HashiCorp Vault, External Secrets, Keycloak, Authentik  
-**Наблюдаемость:** Prometheus, Grafana, Loki, ELK/OpenSearch, Fluent Bit  
-**Облака:** Yandex Cloud (основной), AWS, GCP, DigitalOcean
+- **Платформы из кода:** 100% IaC/GitOps на vSphere, в Yandex Cloud, AWS и GCP: Terraform, Terramate и Ansible поднимают кластеры Talos, Flux приводит платформу к целевому состоянию, Argo CD с ApplicationSets доставляет приложения из Helm и Kustomize; новый кластер разворачивается из Git за 15–30 минут.
+- **Kubernetes как платформа:** Двухуровневая архитектура — центральный кластер держит логирование, метрики, реестр образов Harbor и резервные копии (CloudNativePG, Vault, Garage), рабочие кластеры подключаются к нему по mTLS; сеть на Cilium и Gateway API (Envoy Gateway); при необходимости — работа в изолированном контуре.
+- **Доступ и секреты:** Единый IAM на Authentik или Keycloak с OIDC для всех сервисов и Kubernetes (Pinniped); 100% секретов в HashiCorp Vault с автоматической выдачей через External Secrets; сертификаты через cert-manager.
+- **Безопасная поставка:** SAST, проверка образов на CVE, подпись Cosign и допуск в кластер только подписанных образов через Kyverno; унифицированные сборки на Docker BuildKit с максимальным использованием кэша, GitLab CI/CD, GitHub Actions, версии по GitVersion.
+- **Наблюдаемость:** От инфраструктуры до бизнеса на VictoriaMetrics, Prometheus, Grafana, Loki и Grafana Alloy — качественные логи без шума, метрики из логов, бизнес-метрики и дашборды.
+- **GPU-нагрузки:** Выдача NVIDIA GPU контейнерам и виртуальным машинам KubeVirt (VFIO) через GPU Operator, запуск vLLM.
 
 ---
 
@@ -91,8 +84,8 @@
 | IaC и управление конфигурацией | Terraform, Terramate, Ansible, SaltStack, Packer |
 | CI/CD и сборки | GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko |
 | Безопасность и IAM | HashiCorp Vault, External Secrets, Keycloak, Authentik |
-| Наблюдаемость | Prometheus, Grafana, Loki, ELK/OpenSearch, Logstash, Fluent Bit, Fluentd |
-| Данные и хранилища | CloudNativePG, Stolon, PoWA, Liquibase, MinIO, Nexus, Harbor |
+| Наблюдаемость | Prometheus, Grafana, Loki, ELK, Logstash, Fluent Bit, Fluentd |
+| Данные и хранилища | CloudNativePG, Stolon, PoWA, Liquibase, Garage, Nexus, Harbor |
 | Виртуализация | VMware vSphere, KubeVirt, VirtualBox |
 | GPU / AI | vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery |
 | Языки | Bash, Python |

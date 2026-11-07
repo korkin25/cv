@@ -8,19 +8,12 @@
 
 ## Professional Summary
 
-- **Platform from zero to production in minutes:** Built end-to-end SDLC platforms from scratch — Terraform provisions Talos clusters, FluxCD reconciles the platform, Argo CD delivers apps — cutting new environment provisioning from days to 15–30 minutes.
-- **Multi-cloud Kubernetes at scale:** Designed and operated Kubernetes across 4 providers (DigitalOcean, vSphere, bare metal, Yandex MKS), managing 7+ production clusters and serving 5+ development teams with a unified GitOps-first delivery model.
-- **Measurable performance gains:** Achieved 10x Vault data-access speedup via Redis caching, deployed a 300k msg/s logging platform on OpenSearch, and eliminated manual operations with 100% IaC/GitOps automation.
-
-## Core Skills
-
-**GPU / AI Workloads:** GPU Operator, vLLM, NVIDIA GPU workloads in VFIO/KubeVirt, containers, and Linux native environments  
-**Kubernetes & GitOps:** Talos, FluxCD, Argo CD, Argo Rollouts, Helm, Helmfile, Kustomize, Cilium, Gateway API  
-**IaC & Automation:** Terraform, Terramate, Ansible, SaltStack, Packer  
-**CI/CD:** GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko  
-**Security & Secrets:** HashiCorp Vault, External Secrets, Keycloak, Authentik  
-**Observability:** Prometheus, Grafana, Loki, ELK/OpenSearch, Fluent Bit  
-**Cloud:** Yandex Cloud (primary) · AWS · GCP · DigitalOcean
+- **Platforms as code:** 100% IaC/GitOps on vSphere, Yandex Cloud, AWS, and GCP: Terraform, Terramate, and Ansible provision Talos clusters, Flux reconciles the platform, and Argo CD with ApplicationSets delivers applications from Helm and Kustomize; a new cluster is deployed from Git in 15–30 minutes.
+- **Kubernetes as a platform:** A two-tier architecture — a central cluster hosts logging, metrics, the Harbor image registry, and backups (CloudNativePG, Vault, Garage), and workload clusters connect to it over mTLS; networking on Cilium and Gateway API (Envoy Gateway); air-gapped deployment as an option.
+- **Access and secrets:** A single IAM on Authentik or Keycloak with OIDC for all services and Kubernetes (Pinniped); 100% of secrets in HashiCorp Vault with automatic delivery via External Secrets; certificates via cert-manager.
+- **Secure delivery:** SAST, CVE scanning, Cosign signing, and admission of signed images only via Kyverno; unified Docker BuildKit builds that make maximum use of the cache, GitLab CI/CD, GitHub Actions, and GitVersion-based versioning.
+- **Observability:** From infrastructure to business on VictoriaMetrics, Prometheus, Grafana, Loki, and Grafana Alloy — clean, noise-free logs, metrics derived from logs, and business metrics and dashboards.
+- **GPU workloads:** NVIDIA GPUs for containers and KubeVirt VMs (VFIO) via GPU Operator, and vLLM.
 
 ---
 
@@ -91,8 +84,8 @@
 | IaC & Config Mgmt | Terraform, Terramate, Ansible, SaltStack, Packer |
 | CI/CD & Builds | GitLab CI/CD, GitHub Actions, Docker BuildKit, Kaniko |
 | Security & IAM | HashiCorp Vault, External Secrets, Keycloak, **Authentik** |
-| Observability | Prometheus, Grafana, Loki, ELK/OpenSearch, Logstash, Fluent Bit, Fluentd |
-| Data & Storage | CloudNativePG, Stolon, PoWA, Liquibase, MinIO, Nexus, Harbor |
+| Observability | Prometheus, Grafana, Loki, ELK, Logstash, Fluent Bit, Fluentd |
+| Data & Storage | CloudNativePG, Stolon, PoWA, Liquibase, Garage, Nexus, Harbor |
 | Virtualization | VMware vSphere, KubeVirt, VirtualBox |
 | GPU / AI | vLLM, GPU Operator, NVIDIA Device Plugin, Node Feature Discovery |
 | Languages | Bash, Python |
