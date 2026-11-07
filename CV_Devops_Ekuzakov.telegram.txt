@@ -1,0 +1,31 @@
+Evgenii Kuzakov
+Senior DevOps Engineer / AI Agent Engineer
+7 yrs DevOps · 30+ yrs engineering · English B2 · Remote: full-time, part-time, consulting
+
+🤖 Agentic AI engineering
+• My own multi-agent development harness for projects of any complexity: a deterministic orchestrator drives tasks from selection to merge with no tokens spent on coordination, no hallucinations, and no context compaction.
+• Every task and every review runs in a fresh isolated session; agent output is verified by code: strict schemas, orchestrator-run checks, mandatory CI.
+• A single driver layer for Claude Code, Codex, ACP agents, and Google ax; MCP.
+• AI-driven electronics design: agents take a device from schematic to manufacturing files, with ERC, DRC, SPICE simulation, impedance, thermal, and DFM checks at every stage.
+
+☸️ Platform engineering
+• 100% IaC/GitOps on vSphere, Yandex Cloud, AWS, and GCP: Terraform, Terramate, Talos, Flux, Argo CD ApplicationSets; a new cluster is deployed from Git in 15–30 minutes.
+• Two-tier Kubernetes platform: a central cluster for logging, metrics, the Harbor registry, and backups; workload clusters connect over mTLS; air-gapped deployment as an option.
+• A single IAM with OIDC for all services (Authentik); 100% of secrets in HashiCorp Vault with automatic delivery.
+• Secure delivery: SAST, CVE scanning, Cosign signing, and admission of signed images only via Kyverno.
+• Observability from infrastructure to business: VictoriaMetrics, Grafana, Loki, Alloy; noise-free logs, metrics derived from logs, business dashboards.
+
+💼 Experience
+• ISAIYA Health — Co-founder: multi-agent development orchestrator and AI-driven electronics design.
+• CSSSR — DevOps Engineer (Sep 2025 – Oct 2026): a bank's Kubernetes cluster-management standard, air-gapped, 100% IaC/GitOps.
+• Cloudless Labs, Fluence project (Jan – Mar 2026): OIDC SSO via Authentik, NVIDIA GPUs in VFIO/KubeVirt.
+• HRS International — Senior DevOps Engineer (Jul 2024 – Aug 2025): cloud-agnostic platform on Yandex, AWS, and GCP.
+• SoftSwiss — R&D Senior DevOps Engineer (Dec 2022 – Aug 2023): SaltStack–Vault integration, Keycloak SSO.
+• Satel Pro — Senior DevOps (Oct 2019 – Aug 2022): DevOps delivery for 5+ teams and 7 Kubernetes clusters.
+• Before 2019 — systems architect and engineer at IBS, Technoserv, Open Technologies, and AMT Group.
+
+📬 Contacts
+Email: eugeny.kuzakov@gmail.com
+Telegram: @korkin25
+LinkedIn: http://www.linkedin.com/in/eugenykuzakov
+Full CV (PDF): https://github.com/korkin25/cv/blob/main/CV_Devops_Ekuzakov.pdf

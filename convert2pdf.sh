@@ -19,7 +19,7 @@ if [[ ! -f "$CSS_FILE" ]]; then
 fi
 
 shopt -s nullglob
-files=( *.md )
+files=( CV_*.md )
 
 if [[ ${#files[@]} -eq 0 ]]; then
   echo "No markdown files found in repository root"

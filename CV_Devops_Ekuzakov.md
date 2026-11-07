@@ -1,7 +1,7 @@
-# Evgenii Kuzakov - **Senior / Team Lead DevOps Engineer · AI Agent Engineer**  
+# Evgenii Kuzakov - **Senior DevOps Engineer / AI Agent Engineer**  
 - Building production-ready Kubernetes platforms from scratch — cluster to app delivery in 15–30 min via GitOps & IaC
 - 7 yrs DevOps
-- 15+ yrs Engineering
+- 30+ yrs Engineering
 - English B2
 
 ---
@@ -11,7 +11,7 @@
 - **Agentic AI engineering:** My own multi-agent development harness for projects of any complexity: a deterministic orchestrator drives tasks from selection to merge with no tokens spent on coordination, no hallucinations, and no context compaction — every task and every review runs in a fresh isolated session, and agent output is verified by code; a single layer for Claude Code, Codex, ACP agents, and Google ax, plus MCP.
 - **Platforms as code:** 100% IaC/GitOps on vSphere, Yandex Cloud, AWS, and GCP: Terraform, Terramate, and Ansible provision Talos clusters, Flux reconciles the platform, and Argo CD with ApplicationSets delivers applications from Helm and Kustomize; a new cluster is deployed from Git in 15–30 minutes.
 - **Kubernetes as a platform:** A two-tier architecture — a central cluster hosts logging, metrics, the Harbor image registry, and backups (CloudNativePG, Vault, Garage), and workload clusters connect to it over mTLS; networking on Cilium and Gateway API (Envoy Gateway); air-gapped deployment as an option.
-- **Access and secrets:** A single IAM on Authentik or Keycloak with OIDC for all services and Kubernetes (Pinniped); 100% of secrets in HashiCorp Vault with automatic delivery via External Secrets; certificates via cert-manager.
+- **Access and secrets:** A single IAM on Authentik with OIDC for all services and Kubernetes (Pinniped); 100% of secrets in HashiCorp Vault with automatic delivery via External Secrets; certificates via cert-manager.
 - **Secure delivery:** SAST, CVE scanning, Cosign signing, and admission of signed images only via Kyverno; unified Docker BuildKit builds that make maximum use of the cache, GitLab CI/CD, GitHub Actions, and GitVersion-based versioning.
 - **Observability:** From infrastructure to business on VictoriaMetrics, Prometheus, Grafana, Loki, and Grafana Alloy — clean, noise-free logs, metrics derived from logs, and business metrics and dashboards.
 - **GPU workloads:** NVIDIA GPUs for containers and KubeVirt VMs (VFIO) via GPU Operator, and vLLM.
@@ -138,5 +138,5 @@ WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
 - **Open Technologies Ltd.** — Systems Architect / Chief Technical Project Manager (Aug 2012 – Mar 2014): Managed vendor portfolio development and technical pre-sales for enterprise infrastructure.
 - **AMT Group** — Head of Data Processing Centers / Product Manager (Jul 2008 – Jul 2012): Led business development of enterprise infrastructure platforms and strategic vendor partnerships.
 - **Open Technologies Ltd.** — Senior Systems Engineer (Feb 2001 – Jun 2008): Delivered HA, storage, SAN, clustering, and DR solutions for large data center projects.
-- **Earlier roles** (1994–2000): Systems/Network Administrator at International Trading Bank, Plusinfo, and Laboratory 321 Ltd.
+- **Earlier roles** (1995–2000): Systems/Network Administrator at International Trading Bank, Plusinfo, and Laboratory 321 Ltd.
 

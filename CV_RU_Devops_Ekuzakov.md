@@ -1,7 +1,7 @@
-# Евгений Кузаков - **Senior / Team Lead DevOps Engineer · AI Agent Engineer**  
+# Евгений Кузаков - **Senior DevOps Engineer / AI Agent Engineer**  
 - Создаю production-ready Kubernetes-платформы с нуля — от кластера до доставки приложений за 15–30 минут через GitOps и IaC
 - 7 лет в DevOps
-- 15+ лет в инженерии
+- 30+ лет в инженерии
 - Английский B2
 
 ---
@@ -11,7 +11,7 @@
 - **Агентная разработка (Agentic AI):** Собственная среда (harness) для многоагентной разработки проектов любой сложности: детерминированный оркестратор ведёт задачи от выбора до merge без затрат токенов на координацию, без галлюцинаций и сжатия контекста — каждая задача и каждое ревью идут в свежей изолированной сессии, а результат агента проверяется кодом; единый слой для Claude Code, Codex, агентов ACP и Google ax, MCP.
 - **Платформы из кода:** 100% IaC/GitOps на vSphere, в Yandex Cloud, AWS и GCP: Terraform, Terramate и Ansible поднимают кластеры Talos, Flux приводит платформу к целевому состоянию, Argo CD с ApplicationSets доставляет приложения из Helm и Kustomize; новый кластер разворачивается из Git за 15–30 минут.
 - **Kubernetes как платформа:** Двухуровневая архитектура — центральный кластер держит логирование, метрики, реестр образов Harbor и резервные копии (CloudNativePG, Vault, Garage), рабочие кластеры подключаются к нему по mTLS; сеть на Cilium и Gateway API (Envoy Gateway); при необходимости — работа в изолированном контуре.
-- **Доступ и секреты:** Единый IAM на Authentik или Keycloak с OIDC для всех сервисов и Kubernetes (Pinniped); 100% секретов в HashiCorp Vault с автоматической выдачей через External Secrets; сертификаты через cert-manager.
+- **Доступ и секреты:** Единый IAM на Authentik с OIDC для всех сервисов и Kubernetes (Pinniped); 100% секретов в HashiCorp Vault с автоматической выдачей через External Secrets; сертификаты через cert-manager.
 - **Безопасная поставка:** SAST, проверка образов на CVE, подпись Cosign и допуск в кластер только подписанных образов через Kyverno; унифицированные сборки на Docker BuildKit с максимальным использованием кэша, GitLab CI/CD, GitHub Actions, версии по GitVersion.
 - **Наблюдаемость:** От инфраструктуры до бизнеса на VictoriaMetrics, Prometheus, Grafana, Loki и Grafana Alloy — качественные логи без шума, метрики из логов, бизнес-метрики и дашборды.
 - **GPU-нагрузки:** Выдача NVIDIA GPU контейнерам и виртуальным машинам KubeVirt (VFIO) через GPU Operator, запуск vLLM.
@@ -138,5 +138,5 @@ WhatsApp: [+7-915-495-8170](https://wa.me/79154958170)
 - **Open Technologies Ltd.** — Systems Architect / Chief Technical Project Manager (авг 2012 – мар 2014): развивал vendor portfolio и технический presales для enterprise-инфраструктуры.
 - **AMT Group** — Head of Data Processing Centers / Product Manager (июл 2008 – июл 2012): отвечал за развитие enterprise-платформ и стратегических партнёрств с вендорами.
 - **Open Technologies Ltd.** — Senior Systems Engineer (фев 2001 – июн 2008): внедрял HA, storage, SAN, clustering и DR-решения для крупных дата-центров.
-- **Ранние роли** (1994–2000): Systems/Network Administrator в International Trading Bank, Plusinfo и Laboratory 321 Ltd.
+- **Ранние роли** (1995–2000): Systems/Network Administrator в International Trading Bank, Plusinfo и Laboratory 321 Ltd.
 

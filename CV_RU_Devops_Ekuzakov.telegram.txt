@@ -1,0 +1,31 @@
+Евгений Кузаков
+Senior DevOps Engineer / AI Agent Engineer
+7 лет в DevOps · 30+ лет в инженерии · английский B2 · удалённо: полная и частичная занятость, консультации
+
+🤖 Агентная разработка (Agentic AI)
+• Собственная среда (harness) для многоагентной разработки проектов любой сложности: детерминированный оркестратор ведёт задачи от выбора до merge без затрат токенов на координацию, без галлюцинаций и сжатия контекста.
+• Каждая задача и каждое ревью идут в свежей изолированной сессии; результат агента проверяется кодом: строгие схемы, собственные проверки оркестратора, обязательный CI.
+• Единый слой драйверов для Claude Code, Codex, агентов ACP и Google ax; MCP.
+• Проектирование электроники с ИИ-агентами: от схемы до файлов для производства, на каждой стадии — ERC, DRC, SPICE-моделирование, расчёт импеданса, тепловой расчёт и проверка DFM.
+
+☸️ Платформенная инженерия
+• 100% IaC/GitOps на vSphere, в Yandex Cloud, AWS и GCP: Terraform, Terramate, Talos, Flux, Argo CD ApplicationSets; новый кластер разворачивается из Git за 15–30 минут.
+• Двухуровневая платформа Kubernetes: центральный кластер для логирования, метрик, реестра Harbor и резервных копий, рабочие кластеры подключаются по mTLS; при необходимости — изолированный контур.
+• Единый IAM с OIDC для всех сервисов (Authentik); 100% секретов в HashiCorp Vault с автоматической выдачей.
+• Безопасная поставка: SAST, проверка образов на CVE, подпись Cosign и допуск в кластер только подписанных образов через Kyverno.
+• Наблюдаемость от инфраструктуры до бизнеса: VictoriaMetrics, Grafana, Loki, Alloy; логи без шума, метрики из логов, бизнес-дашборды.
+
+💼 Опыт
+• ISAIYA Health — сооснователь: оркестратор многоагентной разработки и проектирование электроники с ИИ-агентами.
+• CSSSR — DevOps Engineer (сен 2025 – окт 2026): стандарт управления кластерами Kubernetes для банка, изолированный контур, 100% IaC/GitOps.
+• Cloudless Labs, проект Fluence (янв – мар 2026): SSO по OIDC через Authentik, NVIDIA GPU в VFIO/KubeVirt.
+• HRS International — Senior DevOps Engineer (июл 2024 – авг 2025): мультиоблачная платформа на Yandex, AWS и GCP.
+• SoftSwiss — R&D Senior DevOps Engineer (дек 2022 – авг 2023): интеграция SaltStack и Vault, SSO на Keycloak.
+• Satel Pro — Senior DevOps (окт 2019 – авг 2022): DevOps-доставка для 5+ команд и 7 кластеров Kubernetes.
+• До 2019 года — системный архитектор и инженер в IBS, Technoserv, Open Technologies и AMT Group.
+
+📬 Контакты
+Email: eugeny.kuzakov@gmail.com
+Telegram: @korkin25
+LinkedIn: http://www.linkedin.com/in/eugenykuzakov
+Полное резюме (PDF): https://github.com/korkin25/cv/blob/main/CV_RU_Devops_Ekuzakov.pdf
