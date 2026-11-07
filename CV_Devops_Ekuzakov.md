@@ -1,4 +1,4 @@
-# Evgenii Kuzakov - **Senior / Team Lead DevOps Engineer**  
+# Evgenii Kuzakov - **Senior / Team Lead DevOps Engineer · AI Agent Engineer**  
 - Building production-ready Kubernetes platforms from scratch — cluster to app delivery in 15–30 min via GitOps & IaC
 - 7 yrs DevOps
 - 15+ yrs Engineering
@@ -8,6 +8,7 @@
 
 ## Professional Summary
 
+- **Agentic AI engineering:** My own multi-agent development harness for projects of any complexity: a deterministic orchestrator drives tasks from selection to merge with no tokens spent on coordination, no hallucinations, and no context compaction — every task and every review runs in a fresh isolated session, and agent output is verified by code; a single layer for Claude Code, Codex, ACP agents, and Google ax, plus MCP.
 - **Platforms as code:** 100% IaC/GitOps on vSphere, Yandex Cloud, AWS, and GCP: Terraform, Terramate, and Ansible provision Talos clusters, Flux reconciles the platform, and Argo CD with ApplicationSets delivers applications from Helm and Kustomize; a new cluster is deployed from Git in 15–30 minutes.
 - **Kubernetes as a platform:** A two-tier architecture — a central cluster hosts logging, metrics, the Harbor image registry, and backups (CloudNativePG, Vault, Garage), and workload clusters connect to it over mTLS; networking on Cilium and Gateway API (Envoy Gateway); air-gapped deployment as an option.
 - **Access and secrets:** A single IAM on Authentik or Keycloak with OIDC for all services and Kubernetes (Pinniped); 100% of secrets in HashiCorp Vault with automatic delivery via External Secrets; certificates via cert-manager.
@@ -19,12 +20,26 @@
 
 ## Employment
 
+- **Co-founder — ISAIYA Health ([isaiya.health](https://isaiya.health))**
+  - Developing a deterministic multi-agent development orchestrator: code, not the model, picks tasks from the dependency graph and runs claim, commit, MR, and merge, while Claude Code, Codex, ACP, and Google ax agents plug in through a single driver layer and work in isolated sessions with no access to git or credentials.
+  - Made delivery crash-safe: a state machine, an external-action journal, and leases with fencing tokens bring a task to exactly one merge after a crash at any point of the cycle.
+  - Built independent verification of agent output: review in a fresh read-only session with a strict-schema verdict, acceptance tests written before the executor, orchestrator-run checks, secret scanning, and merge only on green CI.
+  - Developed a plugin for Claude Code and Codex that runs a task queue with agents in tmux panes: stall watchdog, crash recovery, bwrap sandbox, and agent questions with owner answers over Telegram.
+  - Developed a central registry service for orchestrator instances and their deliveries (Next.js, PostgreSQL, Authentik OIDC, mTLS).
+  - Developed a device electronics design orchestrator: AI agents take the device through the design stages, and the orchestrator automatically verifies the result at every stage:
+    - inputs — schema validation and requirements freeze;
+    - schematic — ERC (Electrical Rules Check) in KiCad, BOM (Bill of Materials) check, and SPICE circuit simulation in ngspice;
+    - placement — DRC (Design Rules Check) and mechanical fit against the enclosure;
+    - routing — DRC and finite-element trace impedance analysis in Elmer;
+    - final copper — finite-element thermal analysis in Elmer;
+    - manufacturing — CAM (Computer-Aided Manufacturing) outputs: Gerber, drill and assembly files, plus a DFM (Design for Manufacturing) check.
+
 - **Project activity — Cloudless Labs, Fluence project (Jan 2026 – Mar 2026) ([cloudless.dev](https://cloudless.dev))**
   - Developed Terraform-based integration of Authentik with GitHub IdP and OIDC authorization for NetBird, Kubernetes, Argo CD, Homepage, Cargo Registry, and HashiCorp Vault.
   - Tuned Talos, NVIDIA Device Plugin, and GPU Operator for provisioning NVIDIA GPUs across VFIO/KubeVirt environments.
   - Ran GPU workload performance tests across containers, KubeVirt, and native Ubuntu environments to validate deployment models and performance characteristics.
 
-### DevOps Engineer — CSSSR (Sep 2025 – Present)
+### DevOps Engineer — CSSSR (Sep 2025 – Oct 2026)
 
 - Implemented the bank's standard for Kubernetes cluster management in an air-gapped environment with **100% IaC/GitOps automation**: a new Talos cluster on vSphere is deployed from Git in **15–30 minutes** (Terraform, Terramate, Flux) with zero manual steps.
 - Designed a two-tier cluster architecture: the platform `infra` cluster centralizes logging, metrics, the image registry, and backups, while workload clusters (dev, prod) connect to it over mTLS with no shared passwords.
